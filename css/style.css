@@ -1,0 +1,170 @@
+@font-face {
+    font-family: "Elemental End";
+    src: url('/css/fonts/ElementalEnd.ttf');
+}
+@font-face {
+    font-family: "ElementalEndItalic";
+    src: url('/css/fonts/ElementalEnditalic.ttf');
+}
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&family=IBM+Plex+Sans&display=swap');
+
+
+*{
+    overflow-x: hidden;  
+}
+
+body{
+    color: white;
+    font-family: "Elemental End";
+    background-color: #1E1E26;
+}
+.elemental{
+    font-family: "Elemental End";
+    font-weight: 400;
+}
+
+#header .container-fluid{
+    padding: 0% 2% 5%;
+}
+img{
+    width:200px;
+}
+.navbar-toggler-icon{
+    background-color: #fff;
+
+}
+.nav-link{
+    color: white;
+}
+.ibm_mono{
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 500;
+}
+.ibm_sans{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+}
+.free-btn{
+    margin-bottom: 150px;
+    margin: 5% 3% 5% 0;
+}
+#header{
+    background-image: url("../images/[Downloader.la]-62910a13bfb80.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#trusted{
+    background: #1E1E26;
+    display: flex;
+    justify-content: center;
+}
+#trusted .container-fluid{
+    padding: 0% 2% 0 2%;
+}
+.trusted-img{
+    width: 100px;
+}
+#explore{
+    background: #24242D;
+}
+.card-cloud{
+    background: url(../images/Rectangle\ 4368.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    border-radius: 10px;
+}
+.card-data{
+    background: url(../images/Rectangle\ 4368-1.png);
+    border-radius: 15px;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+.card-app{
+    background: url(../images/Rectangle\ 4368-2.png);
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.card-mar{
+    background: url(../images/Rectangle\ 4368-3.png);
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.card-ana{
+    background: url(../images/Rectangle\ 4368-4.png);
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+#explore .card-body{
+    padding-left: 15px;
+    position: absolute; 
+    top: 65%;
+    right: 10%; 
+    font-size: 20px;
+    line-height: 26px;
+}
+#why{
+    background: url("../images/Backgroud.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+.why-title{
+margin-top: 50px;
+}
+.why-left{
+    margin-top: 50px;
+    text-align: right;
+    line-height: 30px;
+}
+
+.why-image{
+    margin-top: 90px;
+    text-align: center;
+}
+.why-right{
+    margin-top: 50px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+}
+.why-icon-left{
+    width: 45px;
+    position: absolute;
+    margin-left: 15px;
+
+}
+.why-icon-right{
+    width: 45px;
+    position: absolute;
+    margin-left: -65px;
+}
+.why-left,.why-right,.ibm_sans,p{
+    color: #CBCBCB;
+}
+#how span{
+font-size: large;
+color: #04804E;
+;
+}
+#how .card-title{
+font-size: small;    
+position: relative;
+left: 70%;
+
+}
+#how .card-text{
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+}
+.how-card{
+    background: #2C2C37;
+    border-radius: 30px;
+}
+
+.how-img{
+width: 90%;
+filter: drop-shadow(0px 3px 1px #ffd05b);
+}
