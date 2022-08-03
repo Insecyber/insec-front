@@ -110,8 +110,14 @@ background-repeat: no-repeat
     display: flex;
     justify-content: center;
 }
-#trusted .container-fluid{
-    padding: 0% 2% 0 2%;
+#trusted h5{
+margin-top: 45%;
+}
+
+.card {
+    background-color: rgb(30, 30, 38);
+    outline-color: #24242D;
+    border: none
 }
 .trusted-img{
     width: 90px;
@@ -172,7 +178,6 @@ font-style: medium;
 .why-left{
     margin-top: 50px;
     text-align: right;
-    /* line-height: 30px; */
 }
 
 .why-image{
@@ -181,14 +186,12 @@ font-style: medium;
 }
 .why-right{
     margin-top: 50px;
-    /* line-height: 30px; */
-    /* letter-spacing: 0.02em; */
+
 }
 .why-icon-left{
     width: 45px;
     position: absolute;
     margin-left: 15px;
-
 }
 .why-icon-right{
     width: 45px;
@@ -210,7 +213,6 @@ select{
     display: inline-block;
     border-width: 0ch;
     background-color: transparent;
-    
 }
 option{
     background-color: transparent;
@@ -375,15 +377,15 @@ padding: 20px;
     margin-top: 20px;
 }
 #trusted .elemental{
-    width: 100%;
+    /* width: 100%; */
 }
 .trusted-img{
     width: 10%;
     text-align: center;
 }
-#explore .row{
+/* #explore .row{
    
-}
+} */
 }
 /* img {
     max-width: 100%;
