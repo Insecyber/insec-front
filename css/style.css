@@ -235,9 +235,9 @@ option{
 }
 
 #how  select {
-    width: 15%;
+    width: 13%;
     padding: 12px 2px;
-    margin: 8px 0;
+    /* margin: 8px 0; */
     color: #04804E;
     display: inline-block;
     /* border: 0px solid; */
@@ -473,11 +473,8 @@ ul::-webkit-scrollbar, li::-webkit-scrollbar {
 
 .form .nav.nav-pills .nav-link {
     text-transform: capitalize;
-    /* font-weight: 400;
-    font-size: 2rem; */
     letter-spacing: -.025em;
     color: inherit;
-    /* border-bottom-width: .2rem; */
     padding: .9rem 1rem
 }
 
@@ -500,4 +497,15 @@ ul::-webkit-scrollbar, li::-webkit-scrollbar {
 
 .category:hover{
     color: #fff;
+}
+#id4 {
+	display:inline;
+}
+#id5 {
+	margin: 0 auto;
+    display:inline;
+}
+
+.explore-icon:hover{
+    transform: rotate(-45deg);
 }
