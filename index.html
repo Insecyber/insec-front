@@ -24,7 +24,7 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse mb-5 ibm_mono" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto">
+                        <ul class="navbar-nav ms-auto my-nav">
                             <li class="nav-item">
                                 <a class="nav-link active px-3" href="#">Home</a>
                             </li>
@@ -52,8 +52,8 @@
                     <div class="col-lg-12 col-md-6 col-sm-6">
                         <h1 class="home-text1">Gain Access to the Best of cyber security freelancers</h1>
                         <p class="ibm_mono home-text2">Get connected with freelancers ready to offer <br> top notch cyber security services for you  and your company</p>
-                        <a href="#" class="btn me-4 btn-success ibm_mono">Require Services</a>
-                        <a href="#" class="btn btn-outline-success ibm_mono">Offer Services</a>
+                        <a href="form.html" class="btn me-4 btn-success ibm_mono">Require Services</a>
+                        <a href="form.html" class="btn btn-outline-light text-white ibm_mono">Offer Services</a>
                     </div>
                 </div>
             </div>
@@ -106,36 +106,36 @@
         <section id="explore">
             <div class="container">
                 <h5 class="py-5 ">Explore our Top categories</h5>
-                <div class="row pb-5 mx-2 col-lg-12 col-md-6 col-sm-12 ">
+                <div class="row pb-5 mx-2 col-lg-12 col-md-6 col-sm-12 parent">
                         <div class="card card-cloud ms-2" style="width: 13rem; height: 18rem;">
                         <div class="card-body">                    
-                        <p class="card-text ibm_mono">Cloud Security Analysis</p>
+                            <a href="#" class="card-text ibm_mono category">Cloud Security Analysis</a>
                         </div>
                     </div>
                     <div class="card card-data ms-2" style="width: 13rem; height: 18rem;">
                         <div class="card-body">
-                        <p class="card-text ibm_mono">Data Security Analysis</p>
+                            <a href="#" class="card-text ibm_mono category">Data Security Analysis</a>
                         </div>
                     </div>
-                    <div class="card card-app ms-2" style="width: 13rem; height: 18rem;">
+                    <div class="card card-app ms-2 child" style="width: 13rem; height: 18rem;">
                         <div class="card-body">
-                        <p class="card-text ibm_mono">App. Security Analysis</p>
+                            <a href="#" class="card-text ibm_mono category">App. Security Analysis</a>
                         </div>
                     </div>
                     <div class="card card-mar ms-2" style="width: 13rem; height: 18rem;">
                         <div class="card-body">
-                        <p class="card-text ibm_mono">Malware Analysis</p>
+                            <a href="#" class="card-text ibm_mono category">Malware Analysis <span style="color: transparent;">dummy</span></a>
                         </div>
                     </div>
                     <div class="card card-ana ms-2" style="width: 13rem; height: 18rem;">
                         <div class="card-body">
-                        <p class="card-text ibm_mono">Penetration Testing</p>
+                            <a href="#" class="card-text ibm_mono category">Penetration Testing</a>
                         </div>
                     </div>
                 </div> 
             </div>
         </section> 
-        <section id="why" class="container">
+        <section id="why" class="container" style="height: 600px !important;">
             <div class="why-title container-fluid">
                 <h3 class="ps-3">Why Us?</h3>
             </div>
@@ -160,7 +160,7 @@
                     </div>
                     <div class="col-lg-4 why-image">
                         <div>
-                            <img src="images/InSec Logo Black 1.png" alt="" srcset="">
+                            <img src="images/InSec Logo Black 1.png" alt="" srcset="" style="transform: rotateY(3.142rad);">
                         </div>
                     </div>
                     <div class="col-lg-4 why-right">
@@ -186,8 +186,11 @@
 
         <section id="how" class="container-fluid">
             <div class="how-heading py-5 container-fluid">
-                  <label for="how">How to use INsec As A </label>
-                  <details >
+                <label for="how">How to use INsec As A </label><select class="ibm_mono" name="services" id="selection">
+                    <option class="ibm_mono " value="client">Client</option>
+                    <option class="ibm_mono" value="freelancer">Freelancer</option>
+                    </select>
+                <details>
                     <summary>Client</summary>
                     <div class="row">
                         <div class="col-lg-6 mb-4"> 
@@ -233,54 +236,56 @@
                         <div class="col-lg-6">
                             <img class="mx-4 how-img" src="images/Rectangle 4391 (1).png" alt="">
                         </div>
-                        <details>
-                            <summary>Freelancer</summary>
+                    </div>
+                </details>
+                <details>
+                    <summary>Freelancer</summary>
+                    <div class="row">
+                        <div class="col-lg-6 mb-4"> 
                             <div class="row">
-                                <div class="col-lg-6 mb-4"> 
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <div class="card how-card m-1" style="width: 18.5rem; height: 13.1rem;">
-                                                <div class="card-body">
-                                                    <h5 class="card-title mb-4">step 1</h5>
-                                                    <h6 class="card-subtitle my-4 ibm_mono">Setup Profile</h6>
-                                                    <h6 class="card-text ibm_sans">Enjoy a quick process while setting up your marketplace and customizing it just the way you want.</h6>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="card how-card m-1" style="width: 18.5rem; height: 13.1rem;">
-                                                <div class="card-body">
-                                                    <h5 class="card-title mb-4">step 2</h5>
-                                                    <h6 class="card-subtitle my-4 ibm_mono">Accept Job</h6>
-                                                    <h6 class="card-text ibm_sans">Offer service by either bidding for jobs posted or accepting direct job request.</h6>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="card how-card m-1" style="width: 18.5rem; height: 13.1rem;">
-                                                <div class="card-body">
-                                                    <h5 class="card-title mb-4">step 3</h5>
-                                                    <h6 class="card-subtitle my-4 ibm_mono">Get the job done</h6>
-                                                    <h6 class="card-text ibm_sans">Enjoy seamless communication with the client and a 100% monopoly on job cost and delivery time.</h6>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="card how-card m-1" style="width: 18.5rem; height: 13.1rem;">
-                                                <div class="card-body">
-                                                    <h5 class="card-title mb-4">step 4</h5>
-                                                    <h6 class="card-subtitle my-4 ibm_mono">Get Paid</h6>
-                                                    <h6 class="card-text ibm_sans">Deliver job im times, and get paid upon confirmation of job done within 3-7 working days, be rest assured our encrow mode of Payment gguarantees your payment.</h6>
-                                                </div>
-                                            </div>
+                                <div class="col-lg-6">
+                                    <div class="card how-card m-1" style="width: 18.5rem; height: 13.1rem;">
+                                        <div class="card-body">
+                                            <h5 class="card-title mb-4">step 1</h5>
+                                            <h6 class="card-subtitle my-4 ibm_mono">Setup Profile</h6>
+                                            <h6 class="card-text ibm_sans">Enjoy a quick process while setting up your marketplace and customizing it just the way you want.</h6>
                                         </div>
                                     </div>
-                                </div> 
-                                <div class="col-lg-6">
-                                    <img class="mx-4 how-img" src="images/cyber-img.png" alt="">
                                 </div>
-                        </details>
-                  </details>
+                                <div class="col-lg-6">
+                                    <div class="card how-card m-1" style="width: 18.5rem; height: 13.1rem;">
+                                        <div class="card-body">
+                                            <h5 class="card-title mb-4">step 2</h5>
+                                            <h6 class="card-subtitle my-4 ibm_mono">Accept Job</h6>
+                                            <h6 class="card-text ibm_sans">Offer service by either bidding for jobs posted or accepting direct job request.</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="card how-card m-1" style="width: 18.5rem; height: 13.1rem;">
+                                        <div class="card-body">
+                                            <h5 class="card-title mb-4">step 3</h5>
+                                            <h6 class="card-subtitle my-4 ibm_mono">Get the job done</h6>
+                                            <h6 class="card-text ibm_sans">Enjoy seamless communication with the client and a 100% monopoly on job cost and delivery time.</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="card how-card m-1" style="width: 18.5rem; height: 13.1rem;">
+                                        <div class="card-body">
+                                            <h5 class="card-title mb-4">step 4</h5>
+                                            <h6 class="card-subtitle my-4 ibm_mono">Get Paid</h6>
+                                            <h6 class="card-text ibm_sans">Deliver job im times, and get paid upon confirmation of job done within 3-7 working days, be rest assured our encrow mode of Payment gguarantees your payment.</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                        <div class="col-lg-6">
+                            <img class="mx-4 how-img" src="images/cyber-img.png" alt="">
+                        </div>
+                </details>
+                  <!-- </details> -->
                 <!-- <label for="how">How to use INsec As A </label> -->
                 <!-- <select class="ibm_mono" name="services" id="selection">
                     <option class="ibm_mono " value="client">Client</option>
@@ -331,11 +336,8 @@
                 <div class="col-lg-6">
                     <img class="mx-4 how-img" src="images/Rectangle 4391 (1).png" alt="">
                 </div>
-<<<<<<< HEAD
             <div> -->
-=======
             </div>
->>>>>>> 0917e34c7ce998a01710ff04bd1cd5e3ad4b6577
         </section>   
 
         <section id="explore-all" >
@@ -475,7 +477,7 @@
                 </div>
             </div>
         </section>  
-                <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
     </body>
 </html>
