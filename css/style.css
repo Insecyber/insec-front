@@ -159,12 +159,12 @@ margin-top: 45%;
     background-size: auto;
 }
 #explore .card-body{
-    padding-left: 15px;
+    /* padding-left: 15px;
     position: absolute; 
     top: 65%;
     right: 10%; 
     font-size: 20px;
-    line-height: 26px;
+    line-height: 26px; */
 }
 #why{
     background: url("/images/Backgroud.png");
@@ -228,18 +228,12 @@ option{
     margin: 8px 0;
     color: #04804E;
     display: inline-block;
-    /* border: 0px solid; */
     border-radius: 10px;
-    /* box-sizing: border-box; */
   }
 input[class=ibm_mono], select {
-    /* width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0; */
     display: inline-block;
     border: 0px solid;
     border-radius: 4px;
-    /* box-sizing: border-box; */
   }
 
 #how option{
@@ -320,7 +314,7 @@ filter: drop-shadow(0px 3px 1px #ffd05b);
 }
 
 /* FORM */
-
+/* 
 .wait-list{
     margin-top:5%;
     margin-left: 10%;
@@ -329,7 +323,7 @@ filter: drop-shadow(0px 3px 1px #ffd05b);
 }
 .f-text{
   font-size: 25px;
-    font-style: Regular;
+font-style: Regular;
 }
 
  #form input {
@@ -369,7 +363,7 @@ box-shadow: 4px 4px 4px 0px rgba(255, 255, 255, 0.15) inset;
 padding: 20px;
 width: 342px;
 height: auto;
-  }
+  } */
 /* Reponsiveness */
 
 
