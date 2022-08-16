@@ -367,41 +367,38 @@ height: auto;
 /* Reponsiveness */
 
 
-@media(max-width: 912px) {
+/* @media(max-width: 912px) {
+  *{
+    overflow-x: hidden;
+  }
     #head{
-        width: 100%;
+        padding: 0 2px 10px;
     }
-#head{
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-}    
 .home-body{
     width: 100%;
 }
 .home-body a{
     margin-top: 20px;
-}
+} */
 
 .parent{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    /* display: grid; */
+    /* grid-template-columns: repeat(2, 1fr); */
     /* margin: 0 8rem; */
-    row-gap: 1rem;
+    /* row-gap: 1rem; */
     /* column-gap: 1rem; */
 }
 
 .card{
-       align-items: center;
+       /* align-items: center;
     justify-content: center;
     height: auto;
-    width: auto;
+    width: auto; */
    /* padding-left: 1rem; */
 }
 .py-3{
-    padding: 0 1rem;
-    letter-spacing: normal;
+    /* padding: 0 1rem;
+    letter-spacing: normal; */
 }
 #trusted .elemental{
     /* width: 100%; */
@@ -410,42 +407,58 @@ height: auto;
     width: 10%;
     text-align: center;
 } */
-} 
-@media (max-width: 600px) and (min-width: 300px)  {
-    /* #head{
+/* }  */
+
+@media (min-width: 200px) and (max-width: 787px)  {
+.container{
+    width: 100%;
+}
+    .home-body{
         width: 100%;
-    align-items: center;
+    }
+/* #explore .container{
+flex-direction: column;
     } */
-    /* .home-body{
-        width: 100%;
+    /* .parent{
+        margin: 10px;
     } */
-     body{
-        width: auto;
-     }
-    #head{
-        background: url("/images/[Downloader.la]-62915582e8356.jpg");
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-    } 
     .parent{
-        display: grid;
+        display: flexbox;
         grid-template-columns: repeat(2, 0.5fr);
         margin: 0 2rem;
         row-gap: 1rem;
-        /* column-gap: 1rem; */
+        column-gap: 1rem;
     }
-
-    .card{
-           align-items: center;
+    #explore span{
+        display: block; 
+        padding-top: 10px;
+    }
+    #explore .card-ana .card-app .card-cloud .card-data .card-mar{
+        align-items: center;
         justify-content: center;
-        height: 5rem;
-        width: 7rem;
-       padding-left: 1rem;
+        height: 20px;
+        width: 50px;
+       /* padding-left: 1rem; */
     }
     .py-3{
         padding: 0 1rem;
         letter-spacing: normal;
     }
+    /* #why{
+        width: auto;
+        margin-right: 0;
+    } */
+    .explore-grid{
+        /* display: inline-block; */
+    }
+    .border-line{
+        /* display: inline-block; */
+        /* position: absolute; */
+
+    }
+    /* #explore-grid .justify-content-center{
+    display: flexbox;
+    
+    } */
+
 }
