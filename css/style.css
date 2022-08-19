@@ -59,6 +59,14 @@ img{
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 400;
 }
+.offer-btn{
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 6px 21px;
+}
+.offer-btn:hover{
+    background-color:transparent
+}
 #head{
 background-image: url("../images/[Downloader.la]-62910a13bfb80.jpg");
 background-size: cover;
@@ -150,13 +158,17 @@ margin-top: 45%;
     background-size: auto;
 }
 #explore .card-body{
-    padding-left: 15px;
+    padding-left: 12px;
     position: absolute; 
-    top: 65%;
-    right: 10%; 
-    font-size: 20px;
-    line-height: 26px;
+    top: 65.7%;
+    /* right: 10%;  */
+    font-size: 16px;
+
 }
+#explore p{
+    color:  #fff;
+}
+
 #explore .col-lg-3{
     margin-left: 20%;
 }
@@ -248,7 +260,7 @@ left: 70%;
 }
 #how .card-text{
     font-size: 14px;
-    line-height: 19px;
+    line-height: 19px; 
     letter-spacing: 0.02em;
 }
 .how-card{
@@ -270,6 +282,9 @@ filter: drop-shadow(0px 3px 1px #ffd05b);
     width: 45px;
     margin-bottom: 1rem;
 }
+.ms{
+    /* margin-left: 4rem; */
+}
 /* span{
     border: 1px solid  #00FFB0;
     position: relative;
@@ -289,9 +304,8 @@ filter: drop-shadow(0px 3px 1px #ffd05b);
     text-align: center;
 }
 #explore-all .btn{
-    border-radius: 0rem;
-    padding: 0.3rem 3rem;
-    margin-left: 26.8rem;
+    /* padding: 0.3rem 3rem; */
+    margin-left: 29rem;
 }
 .explore-btn{
     margin-bottom: 60px;
@@ -345,7 +359,9 @@ filter: drop-shadow(0px 3px 1px #ffd05b);
     border-radius: 4px;
     cursor: pointer;
   }
-  
+ .name{
+    font-size: 20px;
+ } 
   input[type=submit]:hover {
     background-color: #45a049;
   }
