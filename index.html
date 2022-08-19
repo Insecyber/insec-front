@@ -8,7 +8,7 @@
 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="css/style.css">
-        <script src="/index.js"></script>
+        <!-- <script src="/index.js"></script> -->
     </head>
 
 
@@ -21,7 +21,7 @@
                 <div class="container-fluid">
                     <a class="navbar-brand logo" href="#head"><img class="mb-3 " src="images/InSec Logo White 1.png" alt="" srcset=""></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                        <i class="fa fa-bars" aria-hidden="true"></i>
                     </button>
                     <div class="collapse navbar-collapse mb-5 ibm_mono" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto my-nav">
@@ -106,8 +106,8 @@
         <section id="explore">
             <div class="container">
                 <h5 class="py-5 ">Explore our Top categories</h5>
-                <div class="row pb-5 mx-2 col-lg-12 col-md-6 col-sm-12 parent">
-                        <div class="card card-cloud ms-2" style="width: 13rem; height: 18rem;">
+                <div class="row pb-5 mx-2 col-lg-12 col-md-12 col-sm-12 parent">
+                    <div class="card card-cloud ms-2" style="width: 13rem; height: 18rem;">
                         <div class="card-body">                    
                             <a href="#" class="card-text ibm_mono category">Cloud Security Analysis</a>
                         </div>
@@ -161,7 +161,7 @@
                     </div>
                     <div class="col-lg-4 why-image">
                         <div>
-                            <img src="images/InSec Logo Black 1.png" alt="" srcset="" style="transform: rotateY(3.142rad);">
+                            <img src="images/InSec Logo Black 1.png" alt="" srcset="">
                         </div>
                     </div>
                     <div class="col-lg-4 why-right">
@@ -493,6 +493,8 @@
                         if (free) {
                             client.setAttribute("hidden", true);
                             free.removeAttribute("hidden", false);
+                            // $('#selection').style.width = '10.5%';
+                            document.getElementById("selection").style.width = '10.7%'
                         }
                     }else if(service == 'client'){
                         free = document.getElementById("freelancer");
@@ -500,6 +502,7 @@
                         if (client) {
                             client.removeAttribute("hidden", false);
                             free.setAttribute("hidden", true);
+                            document.getElementById("selection").style.width = '7.5%';
                         }
                     }
                 });
