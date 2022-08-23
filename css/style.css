@@ -35,7 +35,7 @@ ul,li {
     overflow-y: scroll; 
 }
 
-ul::-webkit-scrollbar, li::-webkit-scrollbar {
+ul::-webkit-scrollbar, li::-webkit-scrollbar, div::-webkit-scrollbar, a::-webkit-scrollbar {
     display: none; /* for Chrome, Safari, and Opera */
 }
 
@@ -71,20 +71,10 @@ img{
     font-weight: 400;
 }
 #head{
-    /* width: 100%; */
-    /* height: 100vh; */
-    /* overflow: hidden; */
-    /* position: relative; */
-    /* background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    backface-visibility: hidden; */
-    animation: slide 10s infinite alternate;
-    /*animation-timing-function: ease-in-out; */
-    /*animation-fill-mode: forwards; */    
+    animation: slide 10s infinite alternate;  
     background-image: url("../images/[Downloader.la]-62910a13bfb80.jpg");
     background-size: cover;
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
 }
 @keyframes slide{
    0%{
@@ -120,19 +110,23 @@ img{
     margin-left: 5%;
     width: 50%;
 }
+
 .home-text1{
     font-weight: 400;
 }
+
 .home-text2{
     text-align: left;
 }
+
 #trusted{
     background: #1E1E26;
     display: flex;
     justify-content: center;
 }
+
 #trusted h5{
-margin-top: 45%;
+    margin-top: 45%;
 }
 
 .card {
@@ -143,16 +137,19 @@ margin-top: 45%;
 .trusted-img{
     width: 90px;
 }
+
 #explore{
     background: #24242D; 
     background-size: cover;
 }
+
 .card-cloud{
     background: url("../images/Rectangle\ 4368.png");
     background-repeat: no-repeat;
     background-size: auto;
     border-radius: 10px;
 }
+
 .card-data{
     background: url("../images/Rectangle\ 4368-1.png");
     border-radius: 15px;
@@ -177,6 +174,13 @@ margin-top: 45%;
     background-repeat: no-repeat;
     background-size: auto;
 }
+
+.card-cloud:hover, .card-data:hover, .card-app:hover, .card-mar:hover, .card-ana:hover{
+    transform: scale(1.1);
+    background-size: auto;
+    border-radius: 10px;
+}
+
 #explore .card-body{
     padding-left: 15px;
     position: absolute; 
@@ -192,13 +196,14 @@ margin-top: 45%;
     background: url("../images/Backgroud.png");
     background-repeat: no-repeat;
     background-size: cover;
-  
+    /* margin-bottom: 50px; */
 }
 .why-title{
-margin-top: 50px;
+    margin-top: 50px;
 }
 #why .ibm_mono{
-font-style: medium;
+    font-style: medium;
+    /* font-size: 20px; */
 }
 .why-left{
     margin-top: 50px;
@@ -210,27 +215,8 @@ font-style: medium;
     text-align: center;
 }
 
-.why-image:hover{
-    -webkit-animation:spin 4s linear infinite;
-    -moz-animation:spin 4s linear infinite;
-    animation:spin 4s linear infinite;
-}
-
-@-moz-keyframes spin { 
-    100% { -moz-transform: rotateY(360deg); } 
-}
-@-webkit-keyframes spin { 
-    100% { -webkit-transform: rotateY(360deg); } 
-}
-@keyframes spin { 
-    100% { 
-        -webkit-transform: rotateY(360deg); 
-        transform:rotateY(360deg); 
-    } 
-}
 .why-right{
     margin-top: 50px;
-
 }
 .why-icon-left{
     width: 45px;
@@ -243,7 +229,7 @@ font-style: medium;
     margin-left: -65px;
 }
 .why-left,.why-right,.ibm_sans,p{
-   /* font-size: 18px; */
+   font-size: 16px;
    letter-spacing: 2%;
     color: #CBCBCB;
 }
@@ -273,6 +259,19 @@ option{
     border-radius: 10px;
     /* box-sizing: border-box; */
   }
+
+  #how span{
+    display: flex;
+    position: absolute;
+    top: 20%;
+    left: -2%;
+    height: 50px;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    margin: 0 10px;
+    background-color: #ffd05b;
+    width: 5px;
+}
 input[class=ibm_mono], select {
     /* width: 100%;
     padding: 12px 20px;
@@ -448,13 +447,14 @@ input[type=submit]:hover {
     color: #fff;
 }
 
-.card-body:hover{
+/* .card-body:hover{
     background-color: #04804E;
-}
+}*/
 
 .category:hover{
     color: #fff;
 }
+
 #id4 {
 	display:inline;
 }
@@ -525,9 +525,7 @@ input[type=submit]:hover {
 /* #explore .container{
 flex-direction: column;
     } */
-    /* .parent{
-        margin: 10px;
-    } */
+    
     .parent{
         display: flexbox;
         grid-template-columns: repeat(2, 0.5fr);
@@ -568,3 +566,13 @@ flex-direction: column;
     } */
 
 }
+
+/* .sideline {
+    display: flex;
+    height: 230px;
+    flex-wrap: wrap;
+    border-radius : 10px;
+    margin: 10px;
+    background-color: green;
+    width: 15px;
+  } */
