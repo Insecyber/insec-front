@@ -31,7 +31,16 @@ body,html{
     font-family: "Elemental End";
     font-weight: 400;
 }
-
+.nav-logo{
+    /* height: 25%; */
+    width: 45px;
+}
+#head .logo{
+    color: #fff;
+    font-size: small;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
 #head .container-fluid{
     padding: 0% 2% 5%;
 }
