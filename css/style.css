@@ -110,6 +110,7 @@ img{
     margin-bottom: 7%;
     margin-left: 5%;
     width: 50%;
+    height: 500px;
 }
 
 .home-text1{
@@ -560,9 +561,5 @@ flex-direction: column;
         /* position: absolute; */
 
     }
-    /* #explore-grid .justify-content-center{
-    display: flexbox;
-    
-    } */
 
 }
