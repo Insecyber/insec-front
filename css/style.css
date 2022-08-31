@@ -115,6 +115,7 @@ img{
     margin-bottom: 7%;
     margin-left: 5%;
     width: 50%;
+    height: 500px;
 }
 
 .home-text1{
@@ -125,23 +126,12 @@ img{
     text-align: left;
 }
 
-#trusted{
-    background: #1E1E26;
-    display: flex;
-    justify-content: center;
-}
 
-#trusted h5{
-    margin-top: 45%;
-}
 
 .card {
     background-color: rgb(30, 30, 38);
     outline-color: #24242D;
     border: none;
-}
-.trusted-img{
-    width: 90px;
 }
 
 #explore{
@@ -150,17 +140,18 @@ img{
 }
 
 .card-cloud{
-    background: url("../images/Rectangle\ 4368.png");
+    background: url("../images/6.jpg");
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: 450px;
     border-radius: 10px;
 }
 
 .card-data{
-    background: url("../images/Rectangle\ 4368-1.png");
+    background: url("../images/1.jpg");
     border-radius: 15px;
-    background-size: auto;
     background-repeat: no-repeat;
+    background-size: 450px;
+    font-weight: bolder;
 }
 .card-app{
     background: url("../images/Rectangle\ 4368-2.png");
@@ -169,10 +160,10 @@ img{
     background-size: auto;
 }
 .card-mar{
-    background: url("../images/Rectangle\ 4368-3.png");
+    background: url("../images/4.jpg");
     border-radius: 15px;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: 450px;
 }
 .card-ana{
     background: url("../images/Rectangle\ 4368-4.png");
@@ -507,6 +498,11 @@ input[type=submit]:hover {
         padding: 0 1rem;
         letter-spacing: normal;
     }
+    
+    .py-5 {
+        text-align: left;
+    }
+    
     #trusted .elemental{
         /* width: 100%; */
     }
@@ -561,9 +557,5 @@ input[type=submit]:hover {
         /* position: absolute; */
 
     }
-    /* #explore-grid .justify-content-center{
-    display: flexbox;
-    
-    } */
 
 }
