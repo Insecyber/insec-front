@@ -81,6 +81,7 @@ img{
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 @keyframes slide{
    0%{
         background-image: url("../images/[Downloader.la]-62910a13bfb80.jpg");
@@ -97,7 +98,6 @@ img{
     100% {
         background-image: url("../images/[Downloader.la]-62915582e8356.jpg");
     }
-
 }
 
 .nav-link:hover{
@@ -191,6 +191,11 @@ img{
 #explore .col-lg-3{
     margin-left: 20%;
 }
+
+.ps-5 {
+    text-align: left;
+}
+
 #why{
     background: url("../images/Backgroud.png");
     background-repeat: no-repeat;
@@ -500,6 +505,10 @@ input[type=submit]:hover {
     }
     
     .py-5 {
+        text-align: left;
+    }
+    
+    .py-6 {
         text-align: left;
     }
     
