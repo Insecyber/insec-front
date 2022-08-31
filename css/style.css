@@ -46,7 +46,12 @@ ul::-webkit-scrollbar, li::-webkit-scrollbar, div::-webkit-scrollbar, a::-webkit
     font-family: "Elemental End";
     font-weight: 400;
 }
-
+#head img{
+width: 30px;
+}
+#head p{
+    margin-bottom: 50px;
+}
 #head .container-fluid{
     padding: 0% 2% 5%;
 }
@@ -134,14 +139,14 @@ img{
 .card {
     background-color: rgb(30, 30, 38);
     outline-color: #24242D;
-    border: none
+    border: none;
 }
 .trusted-img{
     width: 90px;
 }
 
 #explore{
-    background: #24242D; 
+    /* background: #24242D;  */
     background-size: cover;
 }
 
@@ -183,12 +188,14 @@ img{
     background-size: auto;
     border-radius: 10px;
 }
-
+/* #explore .container{
+    width: 100%;
+} */
 #explore .card-body{
-    padding-left: 15px;
+    padding-left: 10px;
     position: absolute; 
     top: 70%;
-    right: 0%; 
+    right: 10%; 
     font-size: 20px;
     line-height: 26px;
 }
@@ -400,13 +407,13 @@ input[type=submit]:hover {
   
 .form {
     border-radius: 5px;
-    background: linear-gradient(116.29deg, rgba(255, 255, 255, 0.35) -29.94%, rgba(255, 255, 255, 0.26) -29.93%, rgba(255, 255, 255, 0.15) 101.76%),
+    background: url()linear-gradient(116.29deg, rgba(255, 255, 255, 0.35) -29.94%, rgba(255, 255, 255, 0.26) -29.93%, rgba(255, 255, 255, 0.15) 101.76%),
     linear-gradient(121deg, rgba(255, 255, 255, 0.7) -13.38%, rgba(255, 255, 255, 0) 91.48%);   
     border: 1px solid; 
     border-image-source: linear-gradient(121deg, rgba(255, 255, 255, 0.7) -13.38%, rgba(255, 255, 255, 0) 91.48%);
     box-shadow: -4px -4px 4px 0px rgba(245, 245, 245, 0.11) inset;
     padding: 20px;
-    width: 342px;
+    width: 400px;
     height: auto;
 }
 .form .nav.nav-pills {
@@ -449,9 +456,6 @@ input[type=submit]:hover {
     color: #fff;
 }
 
-/* .card-body:hover{
-    background-color: #04804E;
-}*/
 
 .category:hover{
     color: #fff;
@@ -518,9 +522,7 @@ input[type=submit]:hover {
         width: 10%;
         text-align: center;
     }
-    /* #explore .row{
-    
-    } */
+
 }
 @media (min-width: 200px) and (max-width: 787px)  {
 .container{
@@ -529,9 +531,8 @@ input[type=submit]:hover {
     .home-body{
         width: 100%;
     }
-/* #explore .container{
-flex-direction: column;
-    } */
+
+
     
     .parent{
         display: flexbox;
