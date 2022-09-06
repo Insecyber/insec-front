@@ -503,13 +503,16 @@ input[type=submit]:hover {
 #team .card-img-first{
     width: 600px;
     height: auto;
-    border-radius: 175px;
+    border-radius:200px;
     /* border-start-end-radius: 400px; */
-
+}
+#team .justify-content-center{
+    align-items: center;
 }
 #team .card-img-second{
     width: 600px;
     height: auto;
+    /* margin-left: auto; */
     border-bottom-left-radius: 400px;
     border-start-end-radius: 400px;
     border-start-start-radius: 400px;
@@ -518,7 +521,9 @@ input[type=submit]:hover {
     line-height: 30px;
     font-size: large;
 }
-
+#team .card-body2{
+    margin-left: 90px;
+}
 /* Reponsiveness */
 
 @media(max-width: 912px) {
