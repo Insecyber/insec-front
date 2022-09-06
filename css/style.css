@@ -481,7 +481,7 @@ input[type=submit]:hover {
 }
 .header{
     font-weight: bolder;
-    color: #04804E;
+    color: #fff;    
     line-height: 50px;
 }
 .first-text{
