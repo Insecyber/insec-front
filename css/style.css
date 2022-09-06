@@ -49,6 +49,14 @@ ul::-webkit-scrollbar, li::-webkit-scrollbar, div::-webkit-scrollbar, a::-webkit
 #head img{
 width: 30px;
 }
+
+#blog-header img{
+    width: 30px;
+    }
+    
+#form-header img{
+    width: 30px;
+    }
 #head p{
     margin-bottom: 50px;
 }
@@ -142,16 +150,15 @@ img{
 .card-cloud{
     background: url("../images/6.jpg");
     background-repeat: no-repeat;
-    background-size: 450px;
-    border-radius: 10px;
+    background-size: auto;
+    border-radius: 15px;
 }
 
 .card-data{
     background: url("../images/1.jpg");
     border-radius: 15px;
     background-repeat: no-repeat;
-    background-size: 450px;
-    font-weight: bolder;
+    background-size: auto;
 }
 .card-app{
     background: url("../images/Rectangle\ 4368-2.png");
@@ -163,7 +170,7 @@ img{
     background: url("../images/4.jpg");
     border-radius: 15px;
     background-repeat: no-repeat;
-    background-size: 450px;
+    background-size: auto;
 }
 .card-ana{
     background: url("../images/Rectangle\ 4368-4.png");
@@ -173,7 +180,7 @@ img{
 }
 
 .card-cloud:hover, .card-data:hover, .card-app:hover, .card-mar:hover, .card-ana:hover{
-    transform: scale(1.1);
+    transform: scale(1.01);
     background-size: auto;
     border-radius: 10px;
 }
@@ -385,6 +392,12 @@ input[type=submit]:hover {
     width: 40px;
     height: auto;
  } 
+.frame{
+    position: relative;
+    right: 10px;
+    top: auto;
+    
+} 
 .form {
     background: url(../images/Card.png);
     background-repeat: no-repeat;
@@ -449,6 +462,61 @@ input[type=submit]:hover {
 
 .explore-icon:hover{
     transform: rotate(-45deg);
+}
+
+/* ABOUT US */
+#about-us {
+    background-image: url(../images/AboutBackground.jpg);
+    background-repeat: no-repeat;
+    opacity: 0.6;
+    background-size: cover;
+    margin-top: 50px 0;
+}
+.header{
+    font-weight: bolder;
+    color: #04804E;
+    line-height: 50px;
+}
+.first-text{
+    text-align: center;
+}
+.text{
+    line-height: 30px;
+    margin: 50px 200px;
+    color: #FFF;
+    line-height: 35px;
+    /* color: #45a049; */
+}
+.second-text p{
+    margin: 50px 0;
+    color: #FFF;
+    line-height: 35px;
+}
+#about-us img{
+    /* margin-left: 50px; */
+    width: 750px;
+    height: auto;
+}
+#team h1{
+    text-align: center;
+}
+#team .card-img-first{
+    width: 600px;
+    height: auto;
+    border-radius: 175px;
+    /* border-start-end-radius: 400px; */
+
+}
+#team .card-img-second{
+    width: 600px;
+    height: auto;
+    border-bottom-left-radius: 400px;
+    border-start-end-radius: 400px;
+    border-start-start-radius: 400px;
+}
+#team .card-text{
+    line-height: 30px;
+    font-size: large;
 }
 
 /* Reponsiveness */
