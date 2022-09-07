@@ -148,8 +148,8 @@ img{
 }
 
 .card-group{
-  margin-left: 6rem !important;
-    margin-right: 1rem !important
+    margin-left: 4rem !important;
+    margin-right: 4rem !important;
 }
 
 .card-cloud{
@@ -164,6 +164,7 @@ img{
     border-radius: 15px;
     background-repeat: no-repeat;
     background-size: auto;
+    font-weight: bolder;
 }
 .card-app{
     background: url("../images/G.jpg");
@@ -178,14 +179,14 @@ img{
     background-size: auto;
 }
 .card-ana{
-    background: url("../images/Rectangle\ 4368-4.png");
+    background: url("../images/H.jpg");
     border-radius: 15px;
     background-repeat: no-repeat;
     background-size: auto;
 }
 
 .card-cloud:hover, .card-data:hover, .card-app:hover, .card-mar:hover, .card-ana:hover{
-    transform: scale(1.01);
+    transform: scale(1.05);
     background-size: auto;
     border-radius: 10px;
 }
@@ -193,12 +194,12 @@ img{
     width: 100%;
 } */
 #explore .card-body{
-    padding-left: 10px;
     position: absolute; 
     top: 70%;
     right: 10%; 
     font-size: 20px;
     line-height: 26px;
+    font-weight: bolder;
 }
 #explore .col-lg-3{
     margin-left: 20%;
