@@ -147,27 +147,32 @@ img{
     background-size: cover;
 }
 
+.card-group{
+  margin-left: 6rem !important;
+    margin-right: 1rem !important;  
+}
+
 .card-cloud{
-    background: url("../images/6.jpg");
+    background: url("../images/F.jpg");
     background-repeat: no-repeat;
     background-size: auto;
     border-radius: 15px;
 }
 
 .card-data{
-    background: url("../images/1.jpg");
+    background: url("../images/E.jpg");
     border-radius: 15px;
     background-repeat: no-repeat;
     background-size: auto;
 }
 .card-app{
-    background: url("../images/Rectangle\ 4368-2.png");
+    background: url("../images/G.jpg");
     border-radius: 15px;
     background-repeat: no-repeat;
     background-size: auto;
 }
 .card-mar{
-    background: url("../images/4.jpg");
+    background: url("../images/B.jpg");
     border-radius: 15px;
     background-repeat: no-repeat;
     background-size: auto;
