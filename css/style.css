@@ -48,6 +48,7 @@ ul::-webkit-scrollbar, li::-webkit-scrollbar, div::-webkit-scrollbar, a::-webkit
 }
 #head img{
 width: 30px;
+height: 60px;
 }
 
 #blog-header img{
@@ -61,7 +62,7 @@ width: 30px;
     margin-bottom: 50px;
 }
 #head .container-fluid{
-    padding: 5% 2% 5%;
+    padding: 0% 2% 5%;
 }
 img{
     width:150px;
@@ -112,11 +113,15 @@ img{
     color: #04804E;
 }
 
+.btn:hover{
+    color: #04804E;
+    font-weight: 900;
+}
+
 .my-nav .nav-link.active{
     margin-bottom: -.1rem;
     background: transparent !important;
     background-color: transparent !important;
-    border-bottom: 0.3rem solid #04804E;
 }
 
 .home-body{
@@ -345,10 +350,6 @@ filter: drop-shadow(0px 3px 1px #ffd05b);
 .explore-btn{
     margin-bottom: 60px;
     margin-left: 33rem;
-}
-
-container-explore{
-    margin-bottom: 50px;
 }
 #footer{
     background: #24242D;
