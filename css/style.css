@@ -113,7 +113,7 @@ img{
     color: #04804E;
 }
 
-.btn:hover{
+.green:hover{
     color: #04804E;
     font-weight: 900;
 }
@@ -379,7 +379,14 @@ filter: drop-shadow(0px 3px 1px #ffd05b);
     /* text-align: end; */
     padding-left: 1rem;
     font-size: smaller;
+}
 
+.title{
+    color: #39F8AC;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: end;
+    top: 30px;
 }
 /* FORM */
 
