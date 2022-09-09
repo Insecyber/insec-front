@@ -89,7 +89,6 @@ img{
     background-image: url("../images/[Downloader.la]-62910a13bfb80.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
 }
 
 @keyframes slide{
@@ -269,6 +268,11 @@ option{
     background-color: transparent;
     border-width: 0ch;
 }
+#how .form-control{
+    background-color: transparent;
+    border-width: 0ch;
+    color: #CBCBCB;
+}
 
 #how  select {
     width: 7.4%;
@@ -323,10 +327,6 @@ width: 90%;
 filter: drop-shadow(0px 3px 1px #ffd05b);
 }
 
-.dropdown-menu{
-    background-color: #29a139;
-    
-}
 
 #explore-all{
     background: url("../images/Background.png");
