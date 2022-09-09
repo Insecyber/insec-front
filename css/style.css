@@ -48,7 +48,6 @@ ul::-webkit-scrollbar, li::-webkit-scrollbar, div::-webkit-scrollbar, a::-webkit
 }
 #head img{
 width: 30px;
-/* height: 60px; */
 }
 
 #blog-header img{
@@ -80,6 +79,7 @@ img{
     font-family: 'IBM Plex Mono', monospace;
     font-weight: 500;
 }
+
 .ibm_sans{
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 400;
@@ -89,6 +89,7 @@ img{
     background-image: url("../images/[Downloader.la]-62910a13bfb80.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    height: 100vh;
 }
 
 @keyframes slide{
@@ -108,7 +109,6 @@ img{
         background-image: url("../images/[Downloader.la]-62915582e8356.jpg");
     }
 }
-
 .nav-link:hover{
     color: #04804E;
 }
@@ -643,7 +643,7 @@ input[type=submit]:hover {
     }
 
     .py-5 {
-        padding-top: 3rem!important;
+        padding-top: 7rem!important;
         padding-bottom: 3rem!important;
         text-align: left;
         padding-left: 25px;
