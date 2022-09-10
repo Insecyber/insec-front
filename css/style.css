@@ -339,6 +339,7 @@ filter: drop-shadow(0px 3px 1px #ffd05b);
 }
 .border-line{
     border: 1px solid  #00FFB0;
+    width: 50px;
 }
 .explore-grid{
     margin-bottom: 80px;
@@ -360,6 +361,9 @@ filter: drop-shadow(0px 3px 1px #ffd05b);
 #footer{
     background: #24242D;
     display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+
 }
 .footer-logo{
     width: 20%;
