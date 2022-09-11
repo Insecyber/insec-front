@@ -595,7 +595,6 @@ input[type=submit]:hover {
 #about-us img{
     /* margin-left: 50px; */
     width: 750px;
-    height: auto;
 }
 #team h1{
     text-align: center;
@@ -604,6 +603,9 @@ input[type=submit]:hover {
     width: 600px;
     height: auto;
     border-radius:200px;
+    border-bottom-left-radius: 400px;
+    border-start-end-radius: 400px;
+    border-start-start-radius: 400px;
     /* border-start-end-radius: 400px; */
 }
 #team .justify-content-center{
@@ -617,22 +619,40 @@ input[type=submit]:hover {
     border-start-end-radius: 400px;
     border-start-start-radius: 400px;
 }
-#team .card-text{
-    line-height: 30px;
-    font-size: large;
-}
-#team .card-body2{
-    margin-left: 90px;
+
+#team .card-img-third{
+    width: 600px;
+    height: auto;
+    border-bottom-left-radius: 400px;
+    border-start-end-radius: 400px;
+    border-start-start-radius: 400px;
 }
 
-.meet {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+
+#team .card-text{
+    line-height: 30px;
+
 }
+
+#team .card-title{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+/* #team .card-body2{
+    margin-left: 90px;
+} */
+
+.meet {
+ display: flex;
+ flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    flex-direction: row;
+}
+
 /* Reponsiveness */
 
 @media(max-width: 912px) {
