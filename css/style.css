@@ -334,36 +334,40 @@ filter: drop-shadow(0px 3px 1px #ffd05b);
     background-size: cover;
 }
 .explore-icon{
-    width: 45px;
+    width: 40px;
     margin-bottom: 1rem;
 }
 .border-line{
     border: 1px solid  #00FFB0;
-    width: 50px;
+    width: 150px;
 }
+
 .explore-grid{
     margin-bottom: 80px;
 }
+
 .explore-grid-diff{
     margin-bottom: 60px;
 }
+
 .explore-text{
     text-align: center;
 }
+
 #explore-all .btn{
     border-radius: 0rem;
     padding: 0.3rem 3rem;
 }
+
 .explore-btn{
     margin-bottom: 60px;
     margin-left: 33rem;
 }
+
 #footer{
     background: #24242D;
     display: flex;
     justify-content: space-between;
-    padding: 2rem 0;
-
 }
 .footer-logo{
     width: 20%;
