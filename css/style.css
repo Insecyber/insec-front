@@ -398,6 +398,16 @@ height: 90%;
     font-size: smaller;
 }
 
+.footer-text:hover{
+    color: #39F8AC;
+}
+
+.footer-link{
+    color: #6c757d;
+    text-align: end;
+    padding-left: 1rem;
+    font-size: smaller;
+}
 .title{
     color: #39F8AC;
     font-size: 1rem;
