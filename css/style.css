@@ -402,9 +402,14 @@ height: 90%;
     color: #39F8AC;
 }
 
-.footer-link{
+.team{
     color: #6c757d;
     font-size: smaller;
+    text-decoration: underline;
+}
+
+.team:hover{
+    color: #39F8AC;
 }
 
 .title{
