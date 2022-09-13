@@ -52,8 +52,11 @@ width: 30px;
 
 #blog-header img{
     width: 30px;
-    }
-    
+}
+
+#about-us img{
+width: 30px;
+}    
 #form-header img{
     width: 30px;
     }
@@ -510,37 +513,77 @@ input[type=submit]:hover {
     line-height: 35px;
     font-size: large;
 }
-#about-us img{
-    /* margin-left: 50px; */
-    width: 750px;
-    height: auto;
+#team{
+    align-items: center;
 }
 #team h1{
     text-align: center;
 }
-#team .card-img-first{
-    width: 600px;
-    height: auto;
-    border-radius:200px;
-    /* border-start-end-radius: 400px; */
+#team .card{
+    position: relative;
+    margin: 0 auto;
 }
-#team .justify-content-center{
-    align-items: center;
+#team .card .card-body{
+  position: absolute; 
+  bottom: 0; 
+  background: rgba(44, 44, 55, 1); 
+  /* background: rgba(44, 44, 55, 1, 0.1); */
+  width: 50%; 
+  padding: 20px; 
 }
-#team .card-img-second{
-    width: 600px;
-    height: auto;
-    /* margin-left: auto; */
-    border-bottom-left-radius: 400px;
-    border-start-end-radius: 400px;
-    border-start-start-radius: 400px;
+#team .card1{
+    position: relative;
+    margin: 0 auto;
+}
+#team .card1 .card-body{
+    position: absolute; 
+    bottom: 0; 
+    margin-left: 47px;
+    background: rgba(44, 44, 55, 1);
+    /* background: rgba(0, 0, 0, 0.1); */
+    width: 50%; 
+    padding: 20px; 
+  }
+#team .card-title{
+    font-size: medium;
 }
 #team .card-text{
-    line-height: 30px;
-    font-size: large;
+    /* color: black; */
 }
-#team .card-body2{
-    margin-left: 90px;
+
+
+/* popUp */
+
+#popUp{
+align-items: center; 
+margin: 30px;   
+    
+}
+.pop img{
+    margin: 50px 0px 50px 100px;
+}
+.pop {
+    background: rgba(225, 225, 225, 1);
+    padding: 20px;
+    border-radius: 5px 15px;
+    width: 400px;
+    height: auto;
+    color: #2D2D37;
+    line-height: 18px;
+}
+.pop h5{
+    margin-left: 30px;
+}
+.pop p{
+    font-size: 13px;
+    font-style: medium;
+    color: #2D2D37;
+}
+.pop #join{
+    margin-left: 120px;
+}
+.pop .btn{
+    border-radius: 0rem;
 }
 /* Reponsiveness */
 
