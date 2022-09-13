@@ -52,8 +52,11 @@ width: 30px;
 
 #blog-header img{
     width: 30px;
-    }
-    
+}
+
+#about-us img{
+width: 30px;
+}    
 #form-header img{
     width: 30px;
     }
@@ -607,13 +610,19 @@ input[type=submit]:hover {
     line-height: 35px;
     font-size: large;
 }
+<<<<<<< HEAD
 #about-us img{
     /* margin-left: 50px; */
     width: 750px;
+=======
+#team{
+    align-items: center;
+>>>>>>> fbb5f9986784f4c82ffba6c140f82fcbc42ab373
 }
 #team h1{
     text-align: center;
 }
+<<<<<<< HEAD
 #team .card-img-first{
     width: 600px;
     height: auto;
@@ -622,17 +631,35 @@ input[type=submit]:hover {
     border-start-end-radius: 400px;
     border-start-start-radius: 400px;
     /* border-start-end-radius: 400px; */
+=======
+#team .card{
+    position: relative;
+    margin: 0 auto;
+>>>>>>> fbb5f9986784f4c82ffba6c140f82fcbc42ab373
 }
-#team .justify-content-center{
-    align-items: center;
+#team .card .card-body{
+  position: absolute; 
+  bottom: 0; 
+  background: rgba(44, 44, 55, 1); 
+  /* background: rgba(44, 44, 55, 1, 0.1); */
+  width: 50%; 
+  padding: 20px; 
 }
-#team .card-img-second{
-    width: 600px;
-    height: auto;
-    /* margin-left: auto; */
-    border-bottom-left-radius: 400px;
-    border-start-end-radius: 400px;
-    border-start-start-radius: 400px;
+#team .card1{
+    position: relative;
+    margin: 0 auto;
+}
+#team .card1 .card-body{
+    position: absolute; 
+    bottom: 0; 
+    margin-left: 47px;
+    background: rgba(44, 44, 55, 1);
+    /* background: rgba(0, 0, 0, 0.1); */
+    width: 50%; 
+    padding: 20px; 
+  }
+#team .card-title{
+    font-size: medium;
 }
 
 #team .card-img-third{
@@ -645,6 +672,7 @@ input[type=submit]:hover {
 
 
 #team .card-text{
+<<<<<<< HEAD
     line-height: 30px;
 
 }
@@ -666,6 +694,44 @@ input[type=submit]:hover {
     margin: 0 auto;
     width: 100%;
     flex-direction: row;
+=======
+    /* color: black; */
+}
+
+
+/* popUp */
+
+#popUp{
+align-items: center; 
+margin: 30px;   
+    
+}
+.pop img{
+    margin: 50px 0px 50px 100px;
+}
+.pop {
+    background: rgba(225, 225, 225, 1);
+    padding: 20px;
+    border-radius: 5px 15px;
+    width: 400px;
+    height: auto;
+    color: #2D2D37;
+    line-height: 18px;
+}
+.pop h5{
+    margin-left: 30px;
+}
+.pop p{
+    font-size: 13px;
+    font-style: medium;
+    color: #2D2D37;
+}
+.pop #join{
+    margin-left: 120px;
+}
+.pop .btn{
+    border-radius: 0rem;
+>>>>>>> fbb5f9986784f4c82ffba6c140f82fcbc42ab373
 }
 
 /* Reponsiveness */
