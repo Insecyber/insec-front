@@ -404,10 +404,6 @@ height: 90%;
     font-size: smaller;
 }
 
-.footer-text:hover{
-    color: #39F8AC;
-}
-
 .team{
     color: #6c757d;
     font-size: smaller;
@@ -630,6 +626,7 @@ input[type=submit]:hover {
     position: relative;
     margin: 0 auto;
 }
+
 #team .card .card-body{
   position: absolute; 
   bottom: 0; 
@@ -641,6 +638,7 @@ input[type=submit]:hover {
     position: relative;
     margin: 0 auto;
 }
+
 #team .card1 .card-body{
     position: absolute; 
     bottom: 0; 
@@ -651,6 +649,10 @@ input[type=submit]:hover {
   }
 #team .card-title{
     font-size: medium;
+}
+
+#team .card-img-first{
+    height: auto;
 }
 
 #team .card-img-third{
