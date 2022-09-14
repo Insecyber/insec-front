@@ -527,7 +527,6 @@ input[type=submit]:hover {
   position: absolute; 
   bottom: 0; 
   background: rgba(44, 44, 55, 1); 
-  /* background: rgba(44, 44, 55, 1, 0.1); */
   width: 50%; 
   padding: 20px; 
 }
@@ -540,7 +539,6 @@ input[type=submit]:hover {
     bottom: 0; 
     margin-left: 47px;
     background: rgba(44, 44, 55, 1);
-    /* background: rgba(0, 0, 0, 0.1); */
     width: 50%; 
     padding: 20px; 
   }
