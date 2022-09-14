@@ -275,11 +275,13 @@ option{
     background-color: transparent;
     border-width: 0ch;
 }
+
 #how .form-control{
     background-color: transparent;
     border-width: 0ch;
     color: #CBCBCB;
 }
+
 
 #how  select {
     width: 7.4%;
