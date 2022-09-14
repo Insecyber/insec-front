@@ -285,11 +285,6 @@ input[class=ibm_mono], select {
     border-radius: 4px;
   }
 
-#how option{
-    width: 10%;
-    border: none;
-}
-
 #how .card-title{
 font-size: small;    
 position: relative;
@@ -305,11 +300,18 @@ left: 70%;
     border-radius: 30px;
 }
 
+/* option:active{
+
+background: rgba(0, 0, 0, 0.3);
+color: #fff;
+text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+
+} */
+
 .how-img{
 width: 90%;
 filter: drop-shadow(0px 3px 1px #ffd05b);
 }
-
 #explore-all{
     background: url("../images/Background.png");
     background-repeat: no-repeat;
@@ -406,7 +408,8 @@ input[type=submit]:hover {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 30px;
-    border-radius: 5px 10px;
+    /* border: 1px solid; */
+    border-radius: 10px;
     width: 400px;
     height: auto;
 }
