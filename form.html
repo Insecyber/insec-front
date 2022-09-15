@@ -63,10 +63,10 @@
                     <div class="tab-pane fade show active" id="pills-client" role="tabpanel" aria-labelledby="pills-client-tab">
                         <form class="mx-4 my-3" action="">
                             <label for="name">Name</label>
-                            <input type="text" id="name" name="name" placeholder="Tell us your full name">
+                            <input type="text" id="name" name="name" required="required" data-error="Name is required." placeholder="Tell us your full name">
                             <br>
                             <label for="email">Email</label>
-                            <input type="email" id="email" name="email" placeholder="johndoe@gmail.com">
+                            <input type="email" id="email" name="email" required="required" data-error="Mail is required." placeholder="johndoe@gmail.com">
                             <input type="hidden" id="type" name="type" value="client">
                                 <input type="submit" value="Join Waitlist">
                         </form>
@@ -74,10 +74,10 @@
                     <div class="tab-pane fade" id="pills-freelancer" role="tabpanel" aria-labelledby="pills-freelancer-tab">
                         <form class="mx-4 my-3" action="">
                             <label for="name">Name</label>
-                            <input type="text" id="name" name="name" placeholder="Tell us your full name">
+                            <input type="text" id="name" name="name" required="required" data-error="Name is required." placeholder="Tell us your full name">
                             <br>
                             <label for="email">Email</label>
-                            <input type="email" id="email" name="email" placeholder="johndoe@gmail.com">
+                            <input type="email" id="email" name="email" required="required" data-error="Mail is required." placeholder="johndoe@gmail.com">
                             <input type="hidden" id="type" name="type" value="freelancer">
                             <input type="submit" value="Join Waitlist">
                         </form>
@@ -100,7 +100,16 @@
         </div>
         </div>
     </section>
-
+    <section id="error">
+        <div class="pop">
+          <img class src="/images/popImage.png" alt=""> 
+          <h5>Error 404</h4> 
+          <p class="ibm_mono">Something must be wrong somewhere, This page is not available. </p>
+          <div id="join">
+            <a href="index.html" class="btn btn-success ibm_mono mx-2">Go home</a>
+        </div>
+        </div>
+    </section>
 
 
 
