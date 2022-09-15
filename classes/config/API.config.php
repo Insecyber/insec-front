@@ -3,6 +3,7 @@
     class API{
 
         protected $API_ROOT_PATH = "https://api.insecyber.com";
+        // protected $API_ROOT_PATH = "http://localhost:8000";
 
         //params -> associative array to be converted to json body
         //query -> associative array to be converted to url key value pair
@@ -71,6 +72,30 @@
                 array_push($headers, "Authorization: Bearer ".$auth_token);
 
             }
+
+            curl_setopt($request, CURLOPT_CUSTOMREQUEST, "GET");
+            curl_setopt($request, CURLOPT_RETURNTRANSFER, 1);
+            curl_setopt($request, CURLOPT_HTTPHEADER, $headers);
+
+            $response = curl_exec($request);
+
+            $httpcode = curl_getinfo($request, CURLINFO_HTTP_CODE);
+
+            curl_close($request);
+
+            $response_return = json_decode($response, true);
+
+            return ($get_response_code) ? [$httpcode, $response_return] : $response_return;
+
+        }
+
+        public function REQ__getWithoutParam($url){
+            $get_response_code = false;
+            $url = $url;
+
+            $request = curl_init($url);
+
+            $headers = [];
 
             curl_setopt($request, CURLOPT_CUSTOMREQUEST, "GET");
             curl_setopt($request, CURLOPT_RETURNTRANSFER, 1);
