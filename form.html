@@ -108,13 +108,14 @@
             </div>
         </div>
     </section>
-    <section id="error">
+    <section id="error" class="modal">
         <div class="pop">
-          <img class src="/images/popImage.png" alt=""> 
-          <h5>Error 404</h4> 
-          <p class="ibm_mono">Something must be wrong somewhere, This page is not available. </p>
+          <img class src="images/popImage.png" alt=""> 
+          <h5>Error 404</h5> 
+          <!-- <p class="ibm_mono">Something must be wrong somewhere, This page is not available. </p> -->
+          <p class="ibm_mono">Something must be wrong somewhere.</p>
           <div id="join">
-            <a href="index.html" class="btn btn-success ibm_mono mx-2">Go home</a>
+            <a href="https://www.insecyber.com" class="btn btn-success ibm_mono mx-2">Go home</a>
         </div>
         </div>
     </section>
@@ -168,7 +169,8 @@
             //             setTimeout(function() {
             //                 $('#info').modal('hide');
             //             }, 2000);
-                        alert(res.message);
+                        // alert(res.message);
+                        $('#error').modal('show');
                         // setTimeout(function() {
                         //     $('#popUp').modal('hide');
                         // }, 5000);
@@ -180,7 +182,8 @@
             //         $('#info').modal('show');
             //         const message = document.getElementById('message')
             //         message.innerText= "An error occured";
-                    alert('An error occured');
+                    // alert('An error occured');
+                    $('#error').modal('show');
                     // setTimeout(function() {
                     //         $('#popUp').modal('hide');
                     // }, 5000);
@@ -221,10 +224,12 @@
                         //     window.location.href('https://www.insecyber.com');
                         // }, 5000);
                     } else {
-                        alert(res.message);
+                        // alert(res.message);
+                        $('#error').modal('show');
                     }
                 }).fail(function() {
                     alert('An error occured');
+                    $('#error').modal('show');
                 })
             });
         });
