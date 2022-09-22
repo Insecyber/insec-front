@@ -409,6 +409,11 @@ height: 90%;
     color: #39F8AC;
 }
 
+.no:hover{
+    color: #39F8AC;
+}
+
+
 .title{
     color: #39F8AC;
     font-size: 1rem;
@@ -736,8 +741,6 @@ input[type=submit]:hover {
     border-radius: 4px;
     box-sizing: border-box;
   }
-  
-
 
 #contact-form input[type=submit] {
     width: auto;
