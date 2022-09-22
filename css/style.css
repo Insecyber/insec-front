@@ -736,6 +736,9 @@ input[type=submit]:hover {
     border-radius: 4px;
     box-sizing: border-box;
   }
+  
+
+
 #contact-form input[type=submit] {
     width: auto;
     display: inline-block;
@@ -748,15 +751,27 @@ input[type=submit]:hover {
     border-radius: 4px;
     cursor: pointer;
 }
+
+#contact-form input[type=submit]:hover {
+    background-color: #45a049;
+}
+
 #contact .controls{
     margin-left: 400px;
 }
+#contact .form-group{
+    margin: 10 10px;
+}
+
+#contact .form-group label{
+    margin: 10 10px;
+}
+
 #contact .frame {
     width: 40px;
     height: auto;
 }
-#contact .text{
-}
+
 
 /* Reponsiveness */
 
