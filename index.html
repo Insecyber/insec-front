@@ -160,7 +160,7 @@
                 <div id='id4'>How to use INsec As A</div>
                 <div id='id5'>
                     <select class="ibm_mono" name="services" id="selection">
-                        <option class="ibm_mono over" value="client">Client</option>
+                        <option class="ibm_mono over" onchange="changeColor(this)" value="client">Client</option>
                         <option class="ibm_mono over"  value="freelancer">Freelancer</option>
                     </select>
                 </div>
@@ -548,7 +548,7 @@
                     }
                 });
             });
-            document.getElementsByName("services").style.backgroundColor = "yellow"
+
         </script>
     </body>
 </html>
