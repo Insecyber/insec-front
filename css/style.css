@@ -680,7 +680,7 @@ input[type=text], select, textarea {
     box-sizing: border-box; 
     margin-top: 6px; 
     margin-bottom: 16px; 
-    resize: vertical 
+    resize: vertical; 
   }
   
   input[type=submit] {
@@ -699,7 +699,8 @@ input[type=text], select, textarea {
   .contact {
     border-radius: 5px;
     padding: 20px;
-    /* background-color: #6c756c; */
+    margin: 0 auto;
+    width: 50%;
   }
 
 
