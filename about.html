@@ -118,46 +118,24 @@
                 <div class="col-xl-9 col-lg-11 col-md-10 m-auto">
                     <img class="frame" src="images/frame.png" alt="" srcset=""><h2 class="mt-3" >Contact Us</h2>
                 </div>    
-              <form action="#" id="contact-form" action="inc/contact.php" data-toggle="validator">
-                <div class="row controls">
-                  <div class="col-12" data-aos="fade-right" data-aos-duration="1200">
-                    <div class="input-group-meta ibm_mono form-group mb-60">
-                      <label>First<br>Name:</label>
-                      <input type="text" placeholder="Bukola" name="Fname" required="required" data-error="Name is required." />
-                      <div class="help-block with-errors"></div>
-                    </div>
+                <div class="contact">
+                    <form action="action_page.php">
+                  
+                      <label for="fname">Name</label>
+                      <input type="text" id="fname" name="name" placeholder="Your name">
+                  
+                      <label for="company">Company</label>
+                        <input type="text" id="company" name="company" placeholder="Your company name">
+
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="email" placeholder="Your email address">
+                      <label for="subject">Message</label>
+                      <textarea id="subject" name="Message" placeholder="Write something.." style="height:200px"></textarea>
+                  
+                      <input type="submit" value="Submit">
+                  
+                    </form>
                   </div>
-                  <div class="col-12" data-aos="fade-left" data-aos-duration="1200">
-                    <div class="input-group-meta ibm_mono form-group mb-60">
-                      <label>Last<br>Name:</label>
-                      <input type="text" placeholder="Jackson" name="Lname" required="required" data-error="Name is required." />
-                      <div class="help-block with-errors"></div>
-                    </div>
-                  </div>
-                  <div class="col-12" data-aos="fade-up" data-aos-duration="1200">
-                    <div class="input-group-meta ibm_mono form-group mb-60">
-                      <label>Email <br>Address:</label>
-                      <input type="email" placeholder="bibijackson@gmail.com" name="email" required="required" data-error="Valid email is required." />
-                      <div class="help-block with-errors"></div>
-                    </div>
-                  </div>
-                    <div class="col-12" data-aos="fade-up" data-aos-duration="1200">
-                        <div class="input-group-meta ibm_mono form-group mb-60"> 
-                        <label>Company</label>
-                        <input type="tel" placeholder="Insec" name="company" required="required" data-error="company is required." />
-                        <div class="help-block with-errors"></div>
-                        </div>
-                  <div class="col-12" data-aos="fade-up" data-aos-duration="1200">
-                    <div class="input-group-meta ibm_mono form-group  mb-40">
-                      <label>Your <br> Message</label>
-                      <input placeholder="your message here.." name="message" required="required" data-error="Please,leave us a message."></textarea>
-                      <div class="help-block with-errors"></div>
-                      <input type="submit" value="Send Comment">
-                    </div>
-                  </div>
-                  <!-- <div class="col-12 ibm_mono" data-aos="fade-up" data-aos-duration="1200"><input type="submit" value="Join Waitlist"></div> -->
-                </div>
-              </form>
             </div>
           </div>
             </div>
