@@ -576,6 +576,7 @@ input[type=submit]:hover {
 }
 .first-text{
     position: relative;
+    text-align: center;
 }
 
 .second-text{
@@ -592,9 +593,8 @@ input[type=submit]:hover {
     color: #fff;    
     line-height: 50px;
 }
-.first-text{
-    text-align: center;
-}
+/* .first-text{
+} */
 .text{
     line-height: 30px;
     margin: 50px 200px;
@@ -622,7 +622,7 @@ input[type=submit]:hover {
 #team .card .card-body{
   position: absolute; 
   bottom: 0; 
-  background: rgba(44, 44, 55, 1); 
+  background: rgba(44, 44, 55, 0.3); 
   width: 50%; 
   padding: 20px; 
 }
@@ -938,7 +938,7 @@ input[type=text], select, textarea {
     }
 
 }
-@media (min-width: 200px) and (max-width: 787px)  {
+@media screen and (max-width: 787px)  {
 .container{
     width: 100%;
 }
@@ -969,4 +969,40 @@ input[type=text], select, textarea {
         padding: 0 1rem;
         letter-spacing: normal;
     }
+}
+
+@media screen and (max-width: 728px) {
+    #about-us:before {
+        opacity: 0.2;
+        background-position: 25% 0;
+        margin-top: 50px 0;
+    }
+.text {
+    margin: 20px;
+    text-align: justify;
+    line-height: 35px;
+}
+.second-text p{
+    margin: 25px 0;
+    line-height: 35px;
+    text-align: justify;
+    /* font-weight: 600; */
+    font-size: large;
+}
+
+#team .col{
+    flex: none;
+}
+
+#team .card .card-body {
+    width: 70%;
+    padding: 1%;
+}
+.row>* {
+    padding-right: calc(var(--bs-gutter-x) * 1.5);
+    padding-left: calc(var(--bs-gutter-x) * 1.5);
+}
+.contact{
+    width: 85%;
+}
 }
