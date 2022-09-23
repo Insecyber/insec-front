@@ -699,7 +699,7 @@ input[type=text], select, textarea {
   .contact {
     border-radius: 5px;
     padding: 20px;
-    background-color: #6c756c;
+    /* background-color: #6c756c; */
   }
 
 
