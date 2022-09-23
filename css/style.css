@@ -309,7 +309,13 @@ input[class=ibm_mono], select {
     border: 0px solid;
     border-radius: 4px;
   }
-
+#how select.over option:checked,
+#how select.over option:hover{
+    box-shadow: 0 0 10px 100px green insert;
+}
+#how select.over:focus > option:checked{
+    background: green !important;
+}
 #how .card-title{
 font-size: small;    
 position: relative;
@@ -331,11 +337,7 @@ width: 90%;
 filter: drop-shadow(0px 3px 1px #ffd05b);
 height: 90%;
 }
-<<<<<<< HEAD
 
-
-=======
->>>>>>> 167b0f5e459e6b286b8902db316ceaca0d8c251c
 #explore-all{
     background: url("../images/Background.png");
     background-repeat: no-repeat;
@@ -421,24 +423,6 @@ height: 90%;
     margin-bottom: 1rem;
 }
 
-/* .contact{
-    color: #39F8AC;
-    font-size: 1rem;
-    font-weight: 600;
-    margin-bottom: 1rem;
-    padding-left: 1rem;
-}
-
-.contact-form{
-    width: 100%;
-    padding: 12px 20px;
-    margin: 3px 0;
-    display: inline-block;
-    border: 1px solid black;    
-    border-radius: 3px;
-    box-sizing: border-box;
-
-} */
 
 .team{
     font-size: 1rem;
@@ -637,19 +621,6 @@ input[type=submit]:hover {
   width: 50%; 
   padding: 20px; 
 }
-#team .card1{
-    position: relative;
-    margin: 0 auto;
-}
-
-#team .card1 .card-body{
-    position: absolute; 
-    bottom: 0; 
-    margin-left: 47px;
-    background: rgba(44, 44, 55, 1);
-    width: 50%; 
-    padding: 20px; 
-  }
 #team .card-title{
     font-size: medium;
 }
@@ -949,5 +920,4 @@ input[type=submit]:hover {
         padding: 0 1rem;
         letter-spacing: normal;
     }
-
 }

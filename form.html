@@ -128,7 +128,8 @@
                 type = $('#type1').val();
                 country = $('#client_country').val();
                 company = $('#client_company').val();
-                
+            
+            });
                 $.ajax({
                     type: 'POST',
                     url: `scripts/join-script.php`,
@@ -216,8 +217,6 @@
                     alert('An error occured');
                 })
             });
-        });
-
         $(function() {
             $.ajax({
                 url: 'scripts/country.php',
