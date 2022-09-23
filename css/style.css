@@ -402,7 +402,7 @@ height: 90%;
 .team{
     color: #6c757d;
     font-size: smaller;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .team:hover{
