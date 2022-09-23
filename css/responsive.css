@@ -1,0 +1,222 @@
+@media(max-width: 912px) {
+    #head{
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }        
+    .home-body{
+        width: 100%;
+    }
+    .home-body a{
+        margin-top: 20px;
+    }
+
+    .parent{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 1rem;
+    }
+
+    .card{
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        width: auto;
+    }
+    .py-3{
+        padding: 0 1rem;
+        letter-spacing: normal;
+    }
+
+    .py-5 {
+        padding-top: 7rem!important;
+        padding-bottom: 3rem!important;
+        text-align: left;
+        padding-left: 25px;
+    }
+    
+    
+    .py-6 {
+        padding-top: 3rem!important;
+        padding-bottom: 3rem!important;
+        text-align: left;
+        padding-left: 25px;
+    }
+    
+    /* slider */
+
+    @keyframes fade {
+        0% {
+          opacity: 0;
+        }
+      
+        100% {
+          opacity: 1;
+        }
+      }
+      
+      * {
+        padding: 0;
+        border: 0;
+        box-sizing: border-box;
+      }
+      
+      body {
+        height: 100%;
+      }
+      
+      body h1 {
+        text-align: center;
+      }
+      
+      .slide-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 1000px;
+        margin: auto;
+        position: relative;
+      }
+      
+      .slide-container .slide {
+        display: none;
+        width: 100%;
+      }
+      
+      .slide-container .slide.fade {
+        animation: fade 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+      }
+      
+      .slide-container .slide img {
+        width: 100%;
+      }
+    
+      .slide-container .prev,
+    .slide-container .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      margin-top: -22px;
+      padding: 16px;
+      color: white;
+      font-weight: bold;
+      font-size: 20px;
+      transition: all 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+    
+    .slide-container .prev:hover,
+    .slide-container .next:hover {
+      background-color: rgba(0, 0, 0, 0.8);
+      color: white;
+    }
+    
+    .slide-container .prev {
+      left: 2px;
+    }
+    
+    .slide-container .next {
+      right: 2px;
+    }
+    
+    .dots-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+    }
+    
+    .dots-container .dot {
+      cursor: pointer;
+      margin: 5px;
+      width: 20px;
+      height: 20px;
+      color: #333;
+      border-radius: 50%;
+      background-color: #00000000;
+    }
+    
+    .dots-container .dot.active {
+      border: 2px solid green;
+    }
+    /* end of slide */
+
+    .trusted-img{
+        width: 10%;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 787px)  {
+    .container{
+        width: 100%;
+    }
+        .home-body{
+            width: 100%;
+        }
+    
+    
+        
+        .parent{
+            display: flexbox;
+            grid-template-columns: repeat(2, 0.5fr);
+            /* margin: 0 2rem; */
+            row-gap: 1rem;
+            column-gap: 1rem;
+        }
+        #explore span{
+            display: block; 
+            padding-top: 10px;
+        }
+        #explore .card-ana .card-app .card-cloud .card-data .card-mar{
+            align-items: center;
+            justify-content: center;
+            height: 20px;
+            width: 50px;
+        }
+        .py-3{
+            padding: 0 1rem;
+            letter-spacing: normal;
+        }
+    }
+
+@media screen and (max-width: 728px) {
+    #about-us:before {
+        opacity: 0.2;
+        background-position: 25% 0;
+        margin-top: 50px 0;
+    }
+.text {
+    margin: 20px;
+    text-align: justify;
+    line-height: 35px;
+}
+.second-text p{
+    margin: 25px 0;
+    line-height: 35px;
+    text-align: justify;
+    /* font-weight: 600; */
+    font-size: large;
+}
+
+#team .col{
+    flex: none;
+}
+
+#team .card .card-body {
+    width: 70%;
+    padding: 1%;
+}
+.row>* {
+    padding-right: calc(var(--bs-gutter-x) * 1.5);
+    padding-left: calc(var(--bs-gutter-x) * 1.5);
+}
+.contact{
+    width: 85%;
+}
+}
