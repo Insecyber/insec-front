@@ -404,6 +404,8 @@ height: 90%;
 
 .explore-text{
     text-align: center;
+    color: #CBCBCB;
+    padding-right: 35px;
 }
 
 #explore-all .btn{
@@ -788,5 +790,3 @@ input[type=text], select, textarea {
     height: auto;
 }
 
-
-/* Reponsiveness */
