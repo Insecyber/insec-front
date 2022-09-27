@@ -11,5 +11,9 @@
         public function get_countries(){
             return $this->REQ__getWithoutParam($this->API_PATH."/all");
         }
+
+        public function get_client_countries(){
+            return $this->REQ__getWithoutParam($this->API_PATH."/client");
+        }
     }
 ?>

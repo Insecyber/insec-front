@@ -2,8 +2,8 @@
 
     class API{
 
-        protected $API_ROOT_PATH = "https://api.insecyber.com";
-        // protected $API_ROOT_PATH = "http://localhost:8000";
+        // protected $API_ROOT_PATH = "https://api.insecyber.com";
+        protected $API_ROOT_PATH = "http://localhost:8000";
 
         //params -> associative array to be converted to json body
         //query -> associative array to be converted to url key value pair

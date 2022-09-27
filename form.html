@@ -71,7 +71,7 @@
                             <input type="text" id="client_company" name="company" placeholder="Tell us your company name" required>
                             <label for="country">Country</label>
                             <br>
-                            <select id="client_country" name="country" class="country" required>
+                            <select id="client_country" name="country" class="client-country" required>
 
                             </select>
                             <input type="submit" value="Join Waitlist">
@@ -251,6 +251,20 @@
                 $('.country').html('<option value="" selected disabled> --Select Country -- </option> ');
                 countries.map((country) => {
                     $('.country').append(`<option value="${country.id}">${country.name}</option> `);
+                })
+            });
+        });
+
+        $(function() {
+            $.ajax({
+                url: 'scripts/client-country.php',
+                method: 'GET',
+            }).done(function(res) {
+                res = JSON.parse(res);
+                countries = res.data;
+                $('.client-country').html('<option value="" selected disabled> --Select Country -- </option> ');
+                countries.map((country) => {
+                    $('.client-country').append(`<option value="${country.id}">${country.name}</option> `);
                 })
             });
         });
