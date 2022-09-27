@@ -170,6 +170,18 @@ img{
     border-radius: 15px;
 }
 
+#explore .card{
+    position: relative;
+    margin: 0 auto;
+}
+
+#explore .card .card-body{
+  position: absolute; 
+  bottom: 0; 
+  background: rgba(44, 44, 55, 0.7); 
+  width:86.5%; 
+  /* padding: 20px;  */
+}
 .card-data{
     background: url("../images/E.jpg");
     border-radius: 15px;
@@ -710,6 +722,15 @@ input[type=text], select, textarea {
 .pop #join{
     margin-left: 120px;
 }
+#maintenance .pop #join {
+    margin-left: 90px;
+}
+#maintenance p{
+    font-weight: bolder;
+    color: crimson;
+    font-style: oblique;
+    font-size: medium;
+}
 .pop .btn{
     border-radius: 0rem;
 }
@@ -972,7 +993,7 @@ input[type=text], select, textarea {
 }
 
 @media screen and (max-width: 728px) {
-    #about-us:before {
+#about-us:before {
         opacity: 0.2;
         background-position: 25% 0;
         margin-top: 50px 0;
@@ -986,7 +1007,6 @@ input[type=text], select, textarea {
     margin: 25px 0;
     line-height: 35px;
     text-align: justify;
-    /* font-weight: 600; */
     font-size: large;
 }
 
@@ -1004,5 +1024,12 @@ input[type=text], select, textarea {
 }
 .contact{
     width: 85%;
+}
+#footer{
+    text-align: justify;
+}
+#footer img{
+    display: flex;
+    top: 30;
 }
 }
