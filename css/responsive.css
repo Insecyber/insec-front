@@ -24,33 +24,18 @@
         grid-template-columns: repeat(2, 1fr);
         row-gap: 1rem;
     }
-
-    .card{
-        align-items: center;
-        justify-content: center;
-        height: auto;
-        width: auto;
-    }
-
-    .py-3{
-        padding: 0 1rem;
-        letter-spacing: normal;
-    }
-
+    
     .py-5 {
-        padding-top: 7rem!important;
-        padding-bottom: 3rem!important;
-        text-align: left;
-        padding-left: 25px;
+        padding-top: 0rem !important;
+        padding-bottom: 0rem !important;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 1rem;
     }
+
     
-    
-    .py-6 {
-        padding-top: 3rem!important;
-        padding-bottom: 3rem!important;
-        text-align: left;
-        padding-left: 25px;
-    }
+
+}
     
     /* slider */
 
