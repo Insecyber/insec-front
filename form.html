@@ -130,24 +130,22 @@
 
                 e.preventDefault();
 
-                const submit_button = $(this).find("button[type='submit']");
+                // const submit_button = $(this).find("input[type='submit']");
 
-                submit_button.html("<span class='fas fa-spinner fa-spin text-white'></span> Joining...");
+                // submit_button.html("<span class='fas fa-spinner fa-spin text-white'></span> Joining...");
 
                 name = $('#client_name').val();
-                email = $('#client_email').val();
-                type = $('#type1').val();
+                client_email = $('#client_email').val();
+                usertype = $('#type1').val();
                 country = $('#client_country').val();
                 company = $('#client_company').val();
-            
-            });
                 $.ajax({
                     type: 'POST',
                     url: `scripts/join-script.php`,
                     data: {
                         name: name,
-                        email: email,
-                        type: type,
+                        email: client_email,
+                        type: usertype,
                         country: country,
                         company: company
                     }
@@ -193,13 +191,13 @@
 
                 e.preventDefault();
 
-                const submit_button = $(this).find("button[type='submit']");
+                // const submit_button = $(this).find("input[type='submit']");
 
-                submit_button.html("<span class='fas fa-spinner fa-spin text-white'></span> Joining...");
+                // submit_button.html("<span class='fas fa-spinner fa-spin text-white'></span> Joining...");
 
                 name = $('#freelancer_name').val();
-                email = $('#freelancer_email').val();
-                type = $('#type2').val();
+                freelancer_email = $('#freelancer_email').val();
+                usertype = $('#type2').val();
                 country = $('#freelancer_country').val();
 
                 $.ajax({
@@ -207,8 +205,8 @@
                     url: `scripts/join-script.php`,
                     data: {
                         name: name,
-                        email: email,
-                        type: type,
+                        email: freelancer_email,
+                        type: usertype,
                         country: country
                     }
                 }).done(function(res) {
@@ -231,6 +229,7 @@
                     $('#error').modal('show');
                 })
             });
+        });
         $(function() {
             $.ajax({
                 url: 'scripts/country.php',

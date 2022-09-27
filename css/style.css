@@ -750,7 +750,9 @@ input[type=text], select, textarea {
 }
 #error{
     align-items: center; 
-    margin: 30px;  
+    /* margin: 30px;   */
+    top: 20%;
+    left: 35%;
 }
 #error .pop{
     background-color: #24242D;
