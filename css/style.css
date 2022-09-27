@@ -759,6 +759,9 @@ input[type=text], select, textarea {
 .pop #join{
     margin-left: 120px;
 }
+#maintenance{
+    background-color: #1E1E26;
+}
 #maintenance .pop #join {
     margin-left: 90px;
 }
