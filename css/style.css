@@ -179,9 +179,22 @@ img{
   position: absolute; 
   bottom: 0; 
   background: rgba(44, 44, 55, 0.7); 
-  width:86.5%; 
+  width: 86.9%; 
   /* padding: 20px;  */
 }
+
+.card-body1{
+    position: absolute; 
+    bottom: 0; 
+    background: rgba(44, 44, 55, 0.7); 
+    width: 100%; 
+    padding: 20px;
+    top: 70%; 
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: bolder;
+}
+
 .card-data{
     background: url("../images/E.jpg");
     border-radius: 15px;
@@ -218,12 +231,12 @@ img{
 } */
 #explore .card-body{
     position: absolute; 
-    top: 70%;
-    right: 10%; 
+    top: 70%; 
     font-size: 20px;
     line-height: 26px;
     font-weight: bolder;
 }
+
 #explore .col-lg-3{
     margin-left: 20%;
 }
@@ -665,7 +678,7 @@ input[type=submit]:hover {
   position: absolute; 
   bottom: 0; 
   background: rgba(44, 44, 55, 0.3); 
-  width: 50%; 
+  width: 100%; 
   padding: 20px; 
 }
 #team .card-title{
