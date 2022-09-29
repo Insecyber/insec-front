@@ -3,7 +3,7 @@
 /* Path: css\responsive.css */
 
 @media(max-width: 912px) {
-    #head{
+ /*    #head{
         width: 100%;
         background-size: cover;
         background-position: center;
@@ -34,10 +34,10 @@
 
     }
 
-}
+}  */
     
 @media(max-width: 768px) {
-    .parent{
+    /* .parent{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         row-gap: 1rem;
@@ -51,10 +51,10 @@
         row-gap: 1rem;
 
     }
-}
+}*/
 
 @media screen and (max-width: 787px)  {
-    .container{
+  /*   .container{
         width: 100%;
     }
         .home-body{
@@ -64,7 +64,6 @@
         .parent{
             display: flexbox;
             grid-template-columns: repeat(2, 0.5fr);
-            /* margin: 0 2rem; */
             row-gap: 1rem;
             column-gap: 1rem;
         }
@@ -82,10 +81,66 @@
             padding: 0 1rem;
             letter-spacing: normal;
         }
-    }
+    } */
 
 @media screen and (max-width: 728px) {
-    #about-us:before {
+ body {
+    max-width: 100%;
+ }
+    #head{
+        width: 100%;
+        height: auto;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    } 
+
+#head p .navbar-brand{
+    margin: 1rem;
+    /* align-items: center; */
+}
+#head .container{
+ width: 100%;
+}  
+}
+#head p{
+margin-bottom: 15px;
+}
+#head img{
+    width: 50px;
+}
+    #head button{
+
+margin-left: 170px;
+}
+    .navbar-toggler{
+font-size: 2rem;
+}
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0;   
+}
+
+.home-body {
+    margin-bottom: 2%;
+    margin-left: 0;
+    width: 100%;
+    height: auto;
+}
+.home-body a{
+    margin: 0 0 1.5rem;
+}
+.home-body .green{
+    padding: 0.375rem 1.20rem;;
+}
+.card-cloud, .card-data, .card-app, .card-mar, .card-ana{
+ width: 100%;
+ height: auto;
+}
+#explore .col-sm-12{
+    /* width: ; */
+}
+#about-us:before {
         opacity: 0.2;
         background-position: 25% 0;
         margin-top: 50px 0;
@@ -99,7 +154,6 @@
     margin: 25px 0;
     line-height: 35px;
     text-align: justify;
-    /* font-weight: 600; */
     font-size: large;
 }
 
@@ -121,7 +175,4 @@
 }
 
 /* index.html */
-
-
-
 
