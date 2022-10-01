@@ -56,28 +56,36 @@ ul::-webkit-scrollbar, li::-webkit-scrollbar, div::-webkit-scrollbar, a::-webkit
 
 #about-us img{
     width: 30px;
-}    
+} 
+
 #form-header img{
     width: 30px;
 }
+
 #head p{
     margin-bottom: 50px;
 }
+
 #head .container-fluid{
     padding: 0% 2% 5%;
 }
+
 img{
     width:150px;
 }
+
 .fa-bars{
    color: #fff;
 }
+
 .nav-brand{
     width: 75%;
 }
+
 .nav-link{
     color: white;
 }
+
 .ibm_mono{
     font-family: 'IBM Plex Mono', monospace;
     font-weight: 500;
@@ -87,6 +95,7 @@ img{
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 400;
 }
+
 #head{
     animation: slide 25s infinite alternate;  
     background-image: url("../images/[Downloader.la]-62910a13bfb80.jpg");
