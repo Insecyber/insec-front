@@ -4,7 +4,7 @@
 
 @media(max-width: 667px) { 
 
-    .header {
+    /* .header {
         background: url(../images/header.jpg) no-repeat center center;
         background-size: cover;
     }
@@ -87,7 +87,7 @@
      }
      
      .green:hover{
-         /* color: #04804E; */
+        
          font-weight: 900;
          background-color:transparent;
          border-color: #04804E;
@@ -155,7 +155,7 @@
         bottom: 0; 
         background: rgba(44, 44, 55, 0.7); 
         width: 86.9%; 
-        /* padding: 20px;  */
+       
       }
       
       .card-body1{
@@ -278,7 +278,7 @@
     #how .form-control{
         background-color: transparent;
         border-width: 0ch;
-        /* color: #CBCBCB; */
+     
     }
     
     
@@ -325,8 +325,7 @@
     width: 90%;
     filter: drop-shadow(0px 3px 1px #ffd05b);
     height: 90%;
-    }
-
+    } */
 
 }
 
@@ -351,7 +350,7 @@
 
 #head p .navbar-brand{
     margin: 1rem;
-    /* align-items: center; */
+
 }
 #head .container{
  width: 100%;
@@ -363,8 +362,13 @@ margin-bottom: 15px;
 #head img{
     width: 50px;
 }
-    #head button{
-/* margin-left: 120px; */
+#head .container-fluid {
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+    /* display: inline-block; */
 }
     .navbar-toggler{
 font-size: 2rem;
@@ -391,7 +395,7 @@ font-size: 2rem;
     height: 209px;
 }
 .row{
-    /* --bs-gutter-x: 0.2rem; */
+   
 }
 #explore .col-sm-12{
    
@@ -399,7 +403,7 @@ font-size: 2rem;
 #explore .py-5{
     padding-top: 2rem!important;
     padding-bottom: 2rem!important;
-    /* text-align: left; */
+
     padding-left: 2px;
 }
 #explore .mt-5 {
@@ -436,6 +440,6 @@ font-size: 2rem;
 }
 .contact{
     width: 85%;
-}
+} 
 
 /* index.html */
