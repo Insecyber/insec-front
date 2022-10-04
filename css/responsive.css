@@ -2,86 +2,339 @@
 
 /* Path: css\responsive.css */
 
-@media(max-width: 912px) {
- /*    #head{
-        width: 100%;
+@media(max-width: 667px) { 
+
+    .header {
+        background: url(../images/header.jpg) no-repeat center center;
         background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
+    }
+
+    body{
+        background-color: #1E1E26;
+        max-width: 100%;
+        margin: 0 auto;
+        color: white;
+        font-family: "Elemental End";
+    }
+
+    #pre-loader {
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        z-index: 99;
+        background-size: 20px;
+    }
+
+    #head p{
+        margin-bottom: 50px;
+    }
+    
+    #head .container-fluid{
+        padding: 0% 2% 5%;
+    }
+    
+    img{
+        width:150px;
     } 
 
-    .home-body{
-        width: 100%;
+    .fa-bars{
+        color: #fff;
+     }
+
+     .nav-link{
+        color: white;
+    }
+    
+    .ibm_mono{
+        font-family: 'IBM Plex Mono', monospace;
+        font-weight: 500;
+    }
+    
+    .ibm_sans{
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 400;
     }
 
-    .home-body a{
-        margin-top: 20px;
+    #head{
+        animation: slide 25s infinite alternate;  
+        background-image: url("../images/[Downloader.la]-62910a13bfb80.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 
-    .parent{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        row-gap: 1rem;
+    @keyframes slide{
+        0%{
+             background-image: url("../images/[Downloader.la]-62910a13bfb80.jpg");
+         }
+         25% { 
+             background-image: url("../images/[Downloader.la]-62915582e8356.jpg");
+         }
+         50% {
+             background-image: url("../images/[Downloader.la]-6291570a57e46.jpg");
+         }
+         75% {
+             background-image: url("../images/[Downloader.la]-62910a13bfb80.jpg");
+         }
+         100% {
+             background-image: url("../images/[Downloader.la]-62915582e8356.jpg");
+         }
+     }
+     
+     .nav-link:hover{
+         color: #04804E;
+     }
+     
+     .green:hover{
+         /* color: #04804E; */
+         font-weight: 900;
+         background-color:transparent;
+         border-color: #04804E;
+         color: #fff;
+     }
+     
+     .my-nav .nav-link.active{
+         margin-bottom: -.1rem;
+         background: transparent !important;
+         background-color: transparent !important;
+     }
+
+     .home-body{
+        margin-bottom: 7%;
+        margin-left: 5%;
+        width: 25%;
+        height: 450px;
+    }
+    
+    .home-text1{
+        font-weight: 400;
+    }
+    
+    .home-text2{
+        text-align: left;
+    }
+    
+    .card {
+        background-color: rgb(30, 30, 38);
+        outline-color: #24242D;
+        border: none;
+    }
+    
+    #explore{
+        background-size: cover;
+    }
+    
+    .card-group{
+        margin-left: 4rem !important;
+        margin-right: 4rem !important;
+    }
+    
+    .card-cloud{
+        background: url("../images/F.jpg");
+        background-repeat: no-repeat;
+        background-size: auto;
+        border-radius: 15px;
+        bottom: 15px;
+    }
+    
+    #explore .card{
+        position: relative;
+        margin: 1 auto;
+    }
+    
+    #explore .card .card-body{
+      position: absolute; 
+      bottom: 0; 
+      background: rgba(44, 44, 55, 0.7); 
+      width: 86.9%; 
+    }
+
+    #explore .card .card-body{
+        position: absolute; 
+        bottom: 0; 
+        background: rgba(44, 44, 55, 0.7); 
+        width: 86.9%; 
+        /* padding: 20px;  */
+      }
+      
+      .card-body1{
+          position: absolute; 
+          bottom: 0; 
+          background: rgba(44, 44, 55, 0.6); 
+          width: 100%; 
+          padding: 20px;
+          top: 70%; 
+          font-size: 5px;
+          line-height: 20px;
+          font-weight: bold;
+      }
+      
+      .card-data{
+          background: url("../images/E.jpg");
+          border-radius: 15px;
+          background-repeat: no-repeat;
+          background-size: auto;
+          font-weight: bolder;
+          bottom: 15px;
+      }
+
+      .card-app{
+          background: url("../images/H.jpg");
+          border-radius: 15px;
+          background-repeat: no-repeat;
+          background-size: auto;
+          bottom: 15px;
+      }
+
+      .card-mar{
+          background: url("../images/B.jpg");
+          border-radius: 15px;
+          background-repeat: no-repeat;
+          background-size: auto;
+          bottom: 15px;
+      }
+
+      .card-ana{
+          background: url("../images/K.jpg");
+          border-radius: 15px;
+          background-repeat: no-repeat;
+          background-size: auto;
+          bottom: 15px;
+      }
+      
+      .card-cloud:hover, .card-data:hover, .card-app:hover, .card-mar:hover, .card-ana:hover{
+          transform: scale(1.05);
+          background-size: auto;
+          border-radius: 10px;
+      }
+    
+    #explore .col-lg-3{
+        margin-left: 20%;
+    }
+    
+    
+    .card{
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        width: auto;
+    }
+    
+    .py-3{
+        padding: 0 1rem;
+        letter-spacing: normal;
     }
     
     .py-5 {
-        padding-top: 0rem !important;
-        padding-bottom: 0rem !important;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        row-gap: 1rem;
-
-    }
-
-}  */
-    
-@media(max-width: 768px) {
-    /* .parent{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        row-gap: 1rem;
+        padding-top: 7rem!important;
+        padding-bottom: 3rem!important;
+        text-align: center;
+        font-size: 16px;
+        padding-left: 5px;
     }
     
-    .py-5 {
-        padding-top: 0rem !important;
-        padding-bottom: 0rem !important;
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        row-gap: 1rem;
-
+    
+    .py-6 {
+        padding-top: 3rem!important;
+        padding-bottom: 3rem!important;
+        text-align: left;
+        padding-left: 25px;
     }
-}*/
-
-@media screen and (max-width: 787px)  {
-  /*   .container{
-        width: 100%;
+    
+    .ps-5{
+        padding-left: 0px !important;
+        text-align: start;
     }
-        .home-body{
-            width: 100%;
-        }
-        
-        .parent{
-            display: flexbox;
-            grid-template-columns: repeat(2, 0.5fr);
-            row-gap: 1rem;
-            column-gap: 1rem;
-        }
-        #explore span{
-            display: block; 
-            padding-top: 10px;
-        }
-        #explore .card-ana .card-app .card-cloud .card-data .card-mar{
-            align-items: center;
-            justify-content: center;
-            height: 20px;
-            width: 50px;
-        }
-        .py-3{
-            padding: 0 1rem;
-            letter-spacing: normal;
-        }
-    } */
+
+    #why{
+        background: url("../images/Backgroud.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #why .ibm_mono{
+        font-style: medium;
+    }
+
+    .why-left{
+        margin-top: 50px;
+        text-align: right;
+    }
+    
+    .why-image{
+        margin-top: 90px;
+        text-align: center;
+    }
+
+    #how label{
+        font-size: 1.25rem;
+    }
+    
+    option{
+        background-color: transparent;
+    }
+    
+    #how .form-control{
+        background-color: transparent;
+        border-width: 0ch;
+        /* color: #CBCBCB; */
+    }
+    
+    
+    #how  select {
+        width: 7.4%;
+        padding: 12px 2px;
+        margin: 8px 0;
+        color: #04804E;
+        display: inline-block;
+        border-radius: 10px;
+      }
+    
+      #how span{
+        display: flex;
+        position: absolute;
+        top: 20%;
+        left: -2%;
+        height: 50px;
+        flex-wrap: wrap;
+        border-radius: 10px;
+        margin: 0 10px;
+        background-color: #ffd05b;
+        width: 5px;
+    }
+    
+    
+    #how .card-title{
+    font-size: small;    
+    position: relative;
+    left: 70%;
+    }
+    
+    #how .card-text{
+        font-size: 14px;
+        line-height: 19px;
+        letter-spacing: 0.02em;
+    }
+    .how-card{
+        background: #2C2C37;
+        border-radius: 30px;
+    }
+    
+    .how-img{
+    width: 90%;
+    filter: drop-shadow(0px 3px 1px #ffd05b);
+    height: 90%;
+    }
+
+
+}
+
+
+
+  
+
+ 
 
 @media screen and (max-width: 728px) {
  body {
@@ -183,7 +436,6 @@ font-size: 2rem;
 }
 .contact{
     width: 85%;
-}
 }
 
 /* index.html */
