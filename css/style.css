@@ -56,36 +56,28 @@ ul::-webkit-scrollbar, li::-webkit-scrollbar, div::-webkit-scrollbar, a::-webkit
 
 #about-us img{
     width: 30px;
-} 
-
+}    
 #form-header img{
     width: 30px;
 }
-
 #head p{
     margin-bottom: 50px;
 }
-
 #head .container-fluid{
     padding: 0% 2% 5%;
 }
-
 img{
     width:150px;
 }
-
 .fa-bars{
    color: #fff;
 }
-
 .nav-brand{
     width: 75%;
 }
-
 .nav-link{
     color: white;
 }
-
 .ibm_mono{
     font-family: 'IBM Plex Mono', monospace;
     font-weight: 500;
@@ -95,7 +87,6 @@ img{
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 400;
 }
-
 #head{
     animation: slide 25s infinite alternate;  
     background-image: url("../images/[Downloader.la]-62910a13bfb80.jpg");
@@ -154,6 +145,8 @@ img{
     text-align: left;
 }
 
+
+
 .card {
     background-color: rgb(30, 30, 38);
     outline-color: #24242D;
@@ -186,20 +179,18 @@ img{
   position: absolute; 
   bottom: 0; 
   background: rgba(44, 44, 55, 0.7); 
-  width: 86.9%; 
+  width:86.5%; 
   /* padding: 20px;  */
 }
 
-.card-body1{
+.card-body1 {
     position: absolute; 
+    top: 70%;
     bottom: 0; 
-    background: rgba(44, 44, 55, 0.6); 
+    background: rgba(44, 44, 55, 0.3); 
     width: 100%; 
-    padding: 20px;
-    top: 70%; 
-    font-size: 20px;
-    line-height: 26px;
-    font-weight: bolder;
+    padding: 20px; 
+
 }
 
 .card-data{
@@ -238,11 +229,14 @@ img{
 } */
 #explore .card-body{
     position: absolute; 
-    top: 70%; 
+    top: 70%;
+    right: 10%; 
     font-size: 20px;
     line-height: 26px;
     font-weight: bolder;
 }
+
+
 
 #explore .col-lg-3{
     margin-left: 20%;
@@ -326,7 +320,11 @@ img{
 #how label{
     font-size: 1.25rem;
 }
-
+select{
+    display: inline-block;
+    border-width: 0ch;
+    background-color: transparent;
+}
 option{
     background-color: transparent;
     border-width: 0ch;
@@ -360,8 +358,18 @@ option{
     background-color: #ffd05b;
     width: 5px;
 }
-
-
+input[class=ibm_mono], select {
+    display: inline-block;
+    border: 0px solid;
+    border-radius: 4px;
+  }
+#how select.over option:checked,
+#how select.over option:hover{
+    box-shadow: 0 0 10px 100px green insert;
+}
+#how select.over:focus > option:checked{
+    background: green !important;
+}
 #how .card-title{
 font-size: small;    
 position: relative;
@@ -382,61 +390,6 @@ left: 70%;
 width: 90%;
 filter: drop-shadow(0px 3px 1px #ffd05b);
 height: 90%;
-}
-
-select {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    -ms-appearance: none;
-    appearance: none;
-    outline: 0;
-    background-image: none;
-    border: 1px solid black;
-}
- 
-.select {
-    position: relative;
-    display: block;
-    width: 20em;
-    height: 3em;
-    line-height: 3;
-    background: #2C3E50;
-    overflow: hidden;
-    border-radius: .25em;
-}
- 
-select {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0 0 0 .5em;
-    color: #39F8AC;
-    cursor: pointer;
-}
- 
-select::-ms-expand {
-    display: none;
-}
- 
-.select::after {
-    content: '\25BC';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    padding: 0 1em;
-    background: #24242D;
-    pointer-events: none;
-}
- 
-.select:hover::after {
-    color: #39F8AC
-}
- 
-.select::after {
-    -webkit-transition: .25s all ease;
-    -o-transition: .25s all ease;
-    transition: .25s all ease;
 }
 
 #explore-all{
@@ -745,6 +698,10 @@ input[type=submit]:hover {
     border-start-start-radius: 400px;
 }
 
+
+#team .card-text{
+    /* color: black; */
+}
 
 input[type=text], select, textarea {
     width: 100%; 
