@@ -154,8 +154,6 @@ img{
     text-align: left;
 }
 
-
-
 .card {
     background-color: rgb(30, 30, 38);
     outline-color: #24242D;
@@ -440,7 +438,6 @@ select::-ms-expand {
     -o-transition: .25s all ease;
     transition: .25s all ease;
 }
-
 
 #explore-all{
     background: url("../images/Background.png");
