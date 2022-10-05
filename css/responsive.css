@@ -6,6 +6,8 @@
     .body{
         width: auto;
     }
+
+   
     
     #head{
         width:  100%;
@@ -57,18 +59,22 @@
         font-family: 'IBM Plex Mono', monospace;
         font-size: 20px;
         text-align: left;
-        padding-left: 3px;
+        /* c  */
     }
 
     .ibm_sans  {
         font-family: 'IBM Plex Sans', sans-serif;
         font-size: 10px;
         text-align: left;
-        padding-left: 3px;
+        /* padding-left: 3px; */
     }
 
     .why-icon-left {
-    
+    margin-right: 10rem !important;
+    }
+
+    .why-icon-right {
+    padding-left: 2rem !important;
     }
    
 }
