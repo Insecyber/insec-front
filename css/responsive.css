@@ -2,9 +2,13 @@
 
 /* Path: css\responsive.css */
 
-@media(max-width: 912px) {
+@media screen and (max-width: 914px) {
+    .body{
+        width: auto;
+    }
+    
     #head{
-        width: 100%;
+        width:  100%;
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
@@ -19,22 +23,56 @@
         margin-top: 20px;
     }
 
-    .parent{
+    /* .parent{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         row-gap: 1rem;
-    }
+    } */
     
     .py-5 {
-        padding-top: 0rem !important;
-        padding-bottom: 0rem !important;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        row-gap: 1rem;
-
+        margin-top: 5rem !important;
+        font-size: 17px;
+        text-align: center;
+        padding-left: 3px;
     }
 
+    .card {  
+        background-color: rgb(30, 30, 38);
+        outline-color: #24242D;
+        border: none;
+    }
+
+    .card-body{
+        padding: 0.5rem;
+    }
+
+    .py-6 {
+        margin-top: 7rem !important;
+        font-size: 30px;
+        text-align: center;
+        padding-left: 3px;
+    }
+
+    .ibm_mono   {
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 20px;
+        text-align: left;
+        padding-left: 3px;
+    }
+
+    .ibm_sans  {
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 10px;
+        text-align: left;
+        padding-left: 3px;
+    }
+
+    .why-icon-left {
+    
+    }
+   
 }
+
     
 @media(max-width: 768px) {
     .parent{
