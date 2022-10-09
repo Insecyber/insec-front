@@ -57,6 +57,13 @@ ul::-webkit-scrollbar, li::-webkit-scrollbar, div::-webkit-scrollbar, a::-webkit
 #about-us img{
     width: 30px;
 }    
+/* #about-us p{
+    margin-bottom: 50px;
+}
+#about-us .container-fluid{
+    padding: 0% 2% 5%;
+} */
+
 #form-header img{
     width: 30px;
 }
@@ -179,7 +186,7 @@ img{
   position: absolute; 
   bottom: 0; 
   background: rgba(44, 44, 55, 0.7); 
-  width:86.5%; 
+  width:50.5%; 
   /* padding: 20px;  */
 }
 
@@ -187,8 +194,8 @@ img{
     position: absolute; 
     top: 70%;
     bottom: 0; 
-    background: rgba(44, 44, 55, 0.6); 
-    width: 96.5%; 
+    background: rgba(44, 44, 55, 0.3); 
+    /* width: 100%;  */
     padding: 20px; 
 
 }

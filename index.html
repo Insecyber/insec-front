@@ -17,10 +17,14 @@
         <section id="head">
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
-                    <p class="navbar-brand logo" href="#head"><img class="mb-3 nav-logo" src="images/InSec Logo Black 1.png" alt="" srcset="">INSEC</p>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <i class="fa fa-bars" aria-hidden="true"></i>
-                    </button>
+                    <div class="navbar-brand logo" style="display:flex; justify-content: space-between; width: 100%;" href="#head">
+                        <div><img class="mb-3 nav-logo" src="images/InSec Logo Black 1.png" alt="" srcset="">INSEC</div>
+                        
+                        <button class="navbar-toggler justify-content-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="fa fa-bars" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                  
                     <div class="collapse navbar-collapse mb-5 ibm_mono" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto my-nav">
                             <li class="nav-item">
@@ -47,7 +51,7 @@
             </nav>
             <div class="container">
                 <div class="row home-body">
-                    <div class="col-lg-12 col-md-6 col-sm-6">
+                    <div class="col-lg-12 col-md-8 col-sm-10">
                         <h1 class="home-text1">Gain Access to the Best of cyber security freelancers</h1>
                         <p class="ibm_mono home-text2">Get connected with freelancers ready to offer <br> top notch cyber security services for you  and your company</p>
                         <a href="form.html" class="btn me-4 btn-success ibm_mono">Require Service</a>
@@ -61,47 +65,45 @@
         <section id="explore">
             <div class="container-fluid">
                 <h5 class="py-5">Explore our Top categories</h5>
-                <div class="row pb-5 mt-5 col-lg-12 col-sm-12 parent">
-                    <div class="grid md">
-                        <div class="card-group">
-                            <div class="card">
-                                <link class="card card-cloud " style="width : 219px; height: 309px;">
-                                    <div class="card-body1">                    
-                                        <p class="card-text ibm_mono">Cloud Security Analysis</p>
-                                    </div>
-                                </a>
+                    <!-- <div class="grid md"> -->
+                <div class="pb-5 mt-5 row">
+                    <div class="card col-lg-12 col-md-4 col-sm-6">
+                        <link class="card card-cloud " style="width : 219px; height: 309px;">
+                            <div class="card-body1">                    
+                                <p class="card-text  ibm_mono">Cloud Security Analysis</p>
                             </div>
-                            <div class="card">
-                                <link class="card card-data" style="width: 219px; height: 309px;">
-                                    <div class="card-body1">
-                                        <p class="card-text ibm_mono">Data Security Analysis</p>
-                                    </div>
-                                </a>
-                           </div>
-                            <div class="card">
-                                <link class="card card-app child" style="width: 219px; height: 309px;">
-                                    <div class="card-body1">
-                                        <p class="card-text ibm_mono">App. Security Analysis</p>
-                                    </div>
-                                </link>
-                            </div>
-                            <div class="card">
-                                <link class="card card-mar" style="width: 219px; height: 309px;">
-                                    <div class="card-body1">
-                                        <p class="card-text ibm_mono category">Malware Analysis</p>
-                                    </div>
-                                </link>
-                            </div>
-                            <div class="card">
-                                <link class="card card-ana" style="width: 219px; height: 309px;">
-                                    <div class="card-body1">
-                                        <p class="card-text ibm_mono category">Penetration Testing</p>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>                    
+                        </a>
                     </div>
-                </div> 
+                    <div class="card col-lg-12 col-md-4 col-sm-6">
+                        <link class="card card-data" style="width: 219px; height: 309px;">
+                            <div class="card-body1">
+                                <p class="card-text ibm_mono">Data Security Analysis</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card col-lg-12 col-md-4 col-sm-6">
+                        <link class="card card-app child" style="width: 219px; height: 309px;">
+                            <div class="card-body1">
+                                <p class="card-text ibm_mono">App. Security Analysis</p>
+                            </div>
+                        </link>
+                    </div>
+                    <div class="card col-lg-12 col-md-4 col-sm-6">
+                        <link class="card card-mar" style="width: 219px; height: 309px;">
+                            <div class="card-body1">
+                                <p class="card-text ibm_mono category">Malware Analysis</p>
+                            </div>
+                        </link>
+                    </div>
+                    <div class="card col-lg-12 col-md-4 col-sm-6">
+                        <link class="card card-ana" style="width: 219px; height: 309px;">
+                            <div class="card-body1">
+                                <p class="card-text ibm_mono category">Penetration Testing</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>                    
+            </div>
             </div>
         </section>   
               
@@ -517,7 +519,7 @@
                 </div>
             </div>
         </section> 
-        <section id="maintenance" class="modal">
+        <!-- <section id="maintenance" class="modal">
             <div class="pop">
               <img class src="images/DevSec Engineering.png" alt=""> 
               <h5>Oops, You caught us!</h5> 
@@ -526,7 +528,7 @@
                     <a href="javascript:void(0)" class="btn btn-success ibm_mono">View On PC</a>
                 </div>
             </div>
-        </section>
+        </section> -->
         
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
