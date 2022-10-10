@@ -763,10 +763,6 @@ input[type=submit]:hover {
 }
 
 
-#team .card-text{
-    /* color: black; */
-}
-
 input[type=text], select, textarea {
     width: 100%; 
     padding: 12px;  
