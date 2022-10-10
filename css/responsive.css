@@ -575,6 +575,54 @@ height: 90%;
     text-align: left;
 }
 
+#explore-all{
+    background: url("../images/Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.explore-icon{
+    width: 30px;
+    margin-bottom: 1rem;
+}
+
+.border-line{
+    border: 1px solid  #00FFB0;
+    width: 110px;
+}
+
+.explore-grid{
+    margin-bottom: 80px;
+}
+
+.explore-grid-diff{
+    margin-bottom: 60px;
+}
+
+.explore-text{
+    text-align: left;
+    color: #CBCBCB;
+    padding-left: 15px;
+}
+
+#explore-all .btn{
+    border-radius: 0rem;
+    padding: 0.3rem 3rem;
+}
+
+.explore-btn{
+    margin-bottom: 60px;
+    margin-left: 33rem;
+}
+
+.container-explore {
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
 }
 
 
